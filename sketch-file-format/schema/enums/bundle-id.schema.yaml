@@ -1,0 +1,18 @@
+title: Sketch Bundle Identifier
+description:
+  Enumeration of the Apple bundle ids for the various variants of Sketch
+type: string
+enum:
+  - com.bohemiancoding.sketch3
+  - com.bohemiancoding.sketch3.beta
+  - com.bohemiancoding.sketch3.private
+  - com.bohemiancoding.sketch3.internal
+  - com.bohemiancoding.sketch3.experimental
+  - com.bohemiancoding.sketch3.testing
+enumDescriptions:
+  - Public release
+  - Beta
+  - Private
+  - Internal
+  - Experimental
+  - Testing

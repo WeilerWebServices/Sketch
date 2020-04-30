@@ -1,0 +1,6 @@
+framework module ECUnitTests {
+  umbrella header "ECUnitTests.h"
+
+  export *
+  module * { export * }
+}

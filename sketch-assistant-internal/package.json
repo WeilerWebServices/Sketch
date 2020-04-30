@@ -1,0 +1,41 @@
+{
+  "name": "@sketch-hq/sketch-assistant-internal",
+  "repository": "github:sketch-hq/sketch-assistant-internal",
+  "version": "3.0.0-next.3",
+  "main": "index.js",
+  "sketch": "sketch.js",
+  "sketch-assistant": {
+    "title": "Sketch Internal Assistant",
+    "description": "Provides a set of usefully configured rules suitable for dogfooding internally at Sketch"
+  },
+  "license": "MIT",
+  "keywords": [
+    "sketch",
+    "sketch files",
+    "sketch assistant",
+    "assistant",
+    "design ops",
+    "batteries included"
+  ],
+  "files": [
+    "index.js",
+    "sketch.js"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "2.6.2",
+    "@sketch-hq/sketch-assistant-utils": "5.0.0-next.3",
+    "jest": "25.3.0",
+    "prettier": "2.0.4",
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11"
+  },
+  "dependencies": {
+    "@sketch-hq/sketch-assistant-core-rules": "3.1.0-next.1"
+  },
+  "scripts": {
+    "build": "yarn webpack",
+    "package-tarball": "yarn build && yarn pack",
+    "release": "yarn build && changeset publish",
+    "test": "jest"
+  }
+}

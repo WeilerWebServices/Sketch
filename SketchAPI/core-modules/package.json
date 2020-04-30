@@ -1,0 +1,24 @@
+{
+  "name": "core-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@skpm/buffer": "0.1.4",
+    "@skpm/console": "0.2.8",
+    "@skpm/events": "0.2.0",
+    "@skpm/os": "0.1.1",
+    "@skpm/path": "0.1.4",
+    "@skpm/process": "0.1.4",
+    "@skpm/querystring": "0.1.0",
+    "@skpm/stream": "0.1.4",
+    "@skpm/string_decoder": "0.1.5",
+    "@skpm/timers": "0.2.0",
+    "@skpm/util": "0.1.28"
+  }
+}

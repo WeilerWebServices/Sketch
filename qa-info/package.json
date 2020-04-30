@@ -1,0 +1,28 @@
+{
+  "name": "qainfo",
+  "description": "Copies some useful info to the clipboard for troubleshooting",
+  "author": "Ale M <ale@sketchapp.com>",
+  "repository": "https://github.com/sketch-hq/qa-info.git",
+  "license": "MIT",
+  "version": "1.4.7",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "QA Info",
+    "manifest": "src/manifest.json",
+    "main": "qainfo.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.7.5"
+  }
+}

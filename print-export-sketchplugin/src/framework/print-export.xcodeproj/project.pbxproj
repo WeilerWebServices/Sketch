@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07798987ADDE94D11AA3E58D /* libPods-print-export.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B214E39896F61EE9287DCC38 /* libPods-print-export.a */; };
+		4DA18CB4224399DE00D19222 /* PEOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA18CB2224399DE00D19222 /* PEOptions.h */; };
+		4DA18CB5224399DE00D19222 /* PEOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA18CB3224399DE00D19222 /* PEOptions.m */; };
+		4DA18CBC2243ABD100D19222 /* PEDecimalFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA18CBA2243ABD100D19222 /* PEDecimalFormatter.h */; };
+		4DA18CBD2243ABD100D19222 /* PEDecimalFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA18CBB2243ABD100D19222 /* PEDecimalFormatter.m */; };
+		4DA18CC62243EF5D00D19222 /* PEUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA18CC42243EF5D00D19222 /* PEUtils.h */; };
+		4DA18CC72243EF5D00D19222 /* PEUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA18CC52243EF5D00D19222 /* PEUtils.m */; };
+		4DA18CCF2243F0B600D19222 /* MSConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA18CCD2243F0B600D19222 /* MSConstants.h */; };
+		4DA18CD02243F0B600D19222 /* MSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA18CCE2243F0B600D19222 /* MSConstants.m */; };
+		4DA8CB3B2241369D00FC9D2D /* print_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA8CB392241369D00FC9D2D /* print_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DA8CB442241397F00FC9D2D /* PEPrintExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA8CB422241397F00FC9D2D /* PEPrintExport.h */; };
+		4DA8CB452241397F00FC9D2D /* PEPrintExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8CB432241397F00FC9D2D /* PEPrintExport.m */; };
+		4DA8CB69224150DF00FC9D2D /* PEOptionsAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA8CB68224150DF00FC9D2D /* PEOptionsAccessoryView.xib */; };
+		4DB8D68F2244ED1100670BC0 /* MSImmutablePage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB8D6872244ED1000670BC0 /* MSImmutablePage.h */; };
+		4DB8D6912244ED1100670BC0 /* MSImmutableLayerGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB8D6892244ED1000670BC0 /* MSImmutableLayerGroup.h */; };
+		4DB8D6922244ED1100670BC0 /* MSImmutableDocumentData.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB8D68A2244ED1000670BC0 /* MSImmutableDocumentData.h */; };
+		4DB8D6932244ED1100670BC0 /* MSImmutableModelObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB8D68B2244ED1000670BC0 /* MSImmutableModelObject.h */; };
+		4DB8D6942244ED1100670BC0 /* MSImmutableStyledLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB8D68C2244ED1100670BC0 /* MSImmutableStyledLayer.h */; };
+		4DB8D6952244ED1100670BC0 /* MSImmutableArtboardGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB8D68D2244ED1100670BC0 /* MSImmutableArtboardGroup.h */; };
+		4DB8D6962244ED1100670BC0 /* MSImmutableLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB8D68E2244ED1100670BC0 /* MSImmutableLayer.h */; };
+		4DB8D6992244F4D700670BC0 /* MSModelObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB8D6982244F4D700670BC0 /* MSModelObject.h */; };
+		4DB8D69B2244F51D00670BC0 /* MSPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB8D69A2244F51D00670BC0 /* MSPage.h */; };
+		4DF78E702248DDC0004024B0 /* PEFlowConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF78E6E2248DDC0004024B0 /* PEFlowConnection.h */; };
+		4DF78E712248DDC0004024B0 /* PEFlowConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78E6F2248DDC0004024B0 /* PEFlowConnection.m */; };
+		4DF78E7A2248FB12004024B0 /* types.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78E792248FB12004024B0 /* types.m */; };
+		4DF78E85224BC8B8004024B0 /* PESketchMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF78E83224BC8B8004024B0 /* PESketchMethods.h */; };
+		4DF78E86224BC8B8004024B0 /* PESketchMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78E84224BC8B8004024B0 /* PESketchMethods.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DA18CB2224399DE00D19222 /* PEOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEOptions.h; sourceTree = "<group>"; };
+		4DA18CB3224399DE00D19222 /* PEOptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEOptions.m; sourceTree = "<group>"; };
+		4DA18CBA2243ABD100D19222 /* PEDecimalFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEDecimalFormatter.h; sourceTree = "<group>"; };
+		4DA18CBB2243ABD100D19222 /* PEDecimalFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEDecimalFormatter.m; sourceTree = "<group>"; };
+		4DA18CC02243BB7F00D19222 /* MSDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSDocument.h; sourceTree = "<group>"; };
+		4DA18CC12243BBB000D19222 /* MSDocumentData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSDocumentData.h; sourceTree = "<group>"; };
+		4DA18CC42243EF5D00D19222 /* PEUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEUtils.h; sourceTree = "<group>"; };
+		4DA18CC52243EF5D00D19222 /* PEUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEUtils.m; sourceTree = "<group>"; };
+		4DA18CCD2243F0B600D19222 /* MSConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSConstants.h; sourceTree = "<group>"; };
+		4DA18CCE2243F0B600D19222 /* MSConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSConstants.m; sourceTree = "<group>"; };
+		4DA18CD12243F13400D19222 /* MSImmutableLayerAncestry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSImmutableLayerAncestry.h; sourceTree = "<group>"; };
+		4DA18CD22243F16000D19222 /* MSExportRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSExportRequest.h; sourceTree = "<group>"; };
+		4DA18CD42243F20300D19222 /* MSExportManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSExportManager.h; sourceTree = "<group>"; };
+		4DA18CDA2244059B00D19222 /* MSColor-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MSColor-Protocol.h"; sourceTree = "<group>"; };
+		4DA8CB362241369D00FC9D2D /* print_export.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = print_export.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA8CB392241369D00FC9D2D /* print_export.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = print_export.h; sourceTree = "<group>"; };
+		4DA8CB3A2241369D00FC9D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA8CB422241397F00FC9D2D /* PEPrintExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEPrintExport.h; sourceTree = "<group>"; };
+		4DA8CB432241397F00FC9D2D /* PEPrintExport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEPrintExport.m; sourceTree = "<group>"; };
+		4DA8CB68224150DF00FC9D2D /* PEOptionsAccessoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PEOptionsAccessoryView.xib; sourceTree = "<group>"; };
+		4DA8CB6A2242886500FC9D2D /* types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		4DB8D6872244ED1000670BC0 /* MSImmutablePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSImmutablePage.h; sourceTree = "<group>"; };
+		4DB8D6892244ED1000670BC0 /* MSImmutableLayerGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSImmutableLayerGroup.h; sourceTree = "<group>"; };
+		4DB8D68A2244ED1000670BC0 /* MSImmutableDocumentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSImmutableDocumentData.h; sourceTree = "<group>"; };
+		4DB8D68B2244ED1000670BC0 /* MSImmutableModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSImmutableModelObject.h; sourceTree = "<group>"; };
+		4DB8D68C2244ED1100670BC0 /* MSImmutableStyledLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSImmutableStyledLayer.h; sourceTree = "<group>"; };
+		4DB8D68D2244ED1100670BC0 /* MSImmutableArtboardGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSImmutableArtboardGroup.h; sourceTree = "<group>"; };
+		4DB8D68E2244ED1100670BC0 /* MSImmutableLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSImmutableLayer.h; sourceTree = "<group>"; };
+		4DB8D6972244F40E00670BC0 /* MSImmutableColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSImmutableColor.h; sourceTree = "<group>"; };
+		4DB8D6982244F4D700670BC0 /* MSModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSModelObject.h; sourceTree = "<group>"; };
+		4DB8D69A2244F51D00670BC0 /* MSPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPage.h; sourceTree = "<group>"; };
+		4DF78E6E2248DDC0004024B0 /* PEFlowConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEFlowConnection.h; sourceTree = "<group>"; };
+		4DF78E6F2248DDC0004024B0 /* PEFlowConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEFlowConnection.m; sourceTree = "<group>"; };
+		4DF78E732248E2EF004024B0 /* MSImmutableHotspotLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSImmutableHotspotLayer.h; sourceTree = "<group>"; };
+		4DF78E742248ED7E004024B0 /* MSImmutableFlowConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSImmutableFlowConnection.h; sourceTree = "<group>"; };
+		4DF78E792248FB12004024B0 /* types.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = types.m; sourceTree = "<group>"; };
+		4DF78E7F22492AA7004024B0 /* MSLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSLayer.h; sourceTree = "<group>"; };
+		4DF78E81224BC761004024B0 /* MSContentDrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSContentDrawViewController.h; sourceTree = "<group>"; };
+		4DF78E82224BC795004024B0 /* MSFlashController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSFlashController.h; sourceTree = "<group>"; };
+		4DF78E83224BC8B8004024B0 /* PESketchMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PESketchMethods.h; sourceTree = "<group>"; };
+		4DF78E84224BC8B8004024B0 /* PESketchMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PESketchMethods.m; sourceTree = "<group>"; };
+		4DF78E87224E2738004024B0 /* MSImmutableSymbolInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSImmutableSymbolInstance.h; sourceTree = "<group>"; };
+		934C9379DCA27F4889B1A21D /* Pods-print-export.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-print-export.debug.xcconfig"; path = "Pods/Target Support Files/Pods-print-export/Pods-print-export.debug.xcconfig"; sourceTree = "<group>"; };
+		B214E39896F61EE9287DCC38 /* libPods-print-export.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-print-export.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87F0855D9C588A6689F6891 /* Pods-print-export.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-print-export.release.xcconfig"; path = "Pods/Target Support Files/Pods-print-export/Pods-print-export.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DA8CB332241369D00FC9D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07798987ADDE94D11AA3E58D /* libPods-print-export.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DA8CB2C2241369C00FC9D2D = {
+			isa = PBXGroup;
+			children = (
+				4DA8CB382241369D00FC9D2D /* print-export */,
+				4DA8CB372241369D00FC9D2D /* Products */,
+				D23EC967961014BEFDEDA794 /* Pods */,
+				4EB2CB4465921F1AB2C069C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DA8CB372241369D00FC9D2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DA8CB362241369D00FC9D2D /* print_export.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DA8CB382241369D00FC9D2D /* print-export */ = {
+			isa = PBXGroup;
+			children = (
+				4DA8CB3A2241369D00FC9D2D /* Info.plist */,
+				4DA18CBA2243ABD100D19222 /* PEDecimalFormatter.h */,
+				4DA18CBB2243ABD100D19222 /* PEDecimalFormatter.m */,
+				4DF78E6E2248DDC0004024B0 /* PEFlowConnection.h */,
+				4DF78E6F2248DDC0004024B0 /* PEFlowConnection.m */,
+				4DA18CB2224399DE00D19222 /* PEOptions.h */,
+				4DA18CB3224399DE00D19222 /* PEOptions.m */,
+				4DA8CB68224150DF00FC9D2D /* PEOptionsAccessoryView.xib */,
+				4DA8CB422241397F00FC9D2D /* PEPrintExport.h */,
+				4DA8CB432241397F00FC9D2D /* PEPrintExport.m */,
+				4DA18CC42243EF5D00D19222 /* PEUtils.h */,
+				4DA18CC52243EF5D00D19222 /* PEUtils.m */,
+				4DA8CB392241369D00FC9D2D /* print_export.h */,
+				4DA8CB492241441400FC9D2D /* Sketch */,
+				4DA8CB6A2242886500FC9D2D /* types.h */,
+				4DF78E792248FB12004024B0 /* types.m */,
+				4DF78E83224BC8B8004024B0 /* PESketchMethods.h */,
+				4DF78E84224BC8B8004024B0 /* PESketchMethods.m */,
+			);
+			path = "print-export";
+			sourceTree = "<group>";
+		};
+		4DA8CB492241441400FC9D2D /* Sketch */ = {
+			isa = PBXGroup;
+			children = (
+				4DA18CDA2244059B00D19222 /* MSColor-Protocol.h */,
+				4DA18CCD2243F0B600D19222 /* MSConstants.h */,
+				4DA18CCE2243F0B600D19222 /* MSConstants.m */,
+				4DF78E81224BC761004024B0 /* MSContentDrawViewController.h */,
+				4DA18CC02243BB7F00D19222 /* MSDocument.h */,
+				4DA18CC12243BBB000D19222 /* MSDocumentData.h */,
+				4DA18CD42243F20300D19222 /* MSExportManager.h */,
+				4DA18CD22243F16000D19222 /* MSExportRequest.h */,
+				4DF78E82224BC795004024B0 /* MSFlashController.h */,
+				4DB8D68D2244ED1100670BC0 /* MSImmutableArtboardGroup.h */,
+				4DB8D6972244F40E00670BC0 /* MSImmutableColor.h */,
+				4DB8D68A2244ED1000670BC0 /* MSImmutableDocumentData.h */,
+				4DF78E742248ED7E004024B0 /* MSImmutableFlowConnection.h */,
+				4DF78E732248E2EF004024B0 /* MSImmutableHotspotLayer.h */,
+				4DB8D68E2244ED1100670BC0 /* MSImmutableLayer.h */,
+				4DA18CD12243F13400D19222 /* MSImmutableLayerAncestry.h */,
+				4DB8D6892244ED1000670BC0 /* MSImmutableLayerGroup.h */,
+				4DB8D68B2244ED1000670BC0 /* MSImmutableModelObject.h */,
+				4DB8D6872244ED1000670BC0 /* MSImmutablePage.h */,
+				4DB8D68C2244ED1100670BC0 /* MSImmutableStyledLayer.h */,
+				4DF78E87224E2738004024B0 /* MSImmutableSymbolInstance.h */,
+				4DF78E7F22492AA7004024B0 /* MSLayer.h */,
+				4DB8D6982244F4D700670BC0 /* MSModelObject.h */,
+				4DB8D69A2244F51D00670BC0 /* MSPage.h */,
+			);
+			path = Sketch;
+			sourceTree = "<group>";
+		};
+		4EB2CB4465921F1AB2C069C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B214E39896F61EE9287DCC38 /* libPods-print-export.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D23EC967961014BEFDEDA794 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				934C9379DCA27F4889B1A21D /* Pods-print-export.debug.xcconfig */,
+				F87F0855D9C588A6689F6891 /* Pods-print-export.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4DA8CB312241369D00FC9D2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB8D6942244ED1100670BC0 /* MSImmutableStyledLayer.h in Headers */,
+				4DB8D6922244ED1100670BC0 /* MSImmutableDocumentData.h in Headers */,
+				4DF78E702248DDC0004024B0 /* PEFlowConnection.h in Headers */,
+				4DA18CCF2243F0B600D19222 /* MSConstants.h in Headers */,
+				4DA18CBC2243ABD100D19222 /* PEDecimalFormatter.h in Headers */,
+				4DB8D6962244ED1100670BC0 /* MSImmutableLayer.h in Headers */,
+				4DA18CB4224399DE00D19222 /* PEOptions.h in Headers */,
+				4DB8D6912244ED1100670BC0 /* MSImmutableLayerGroup.h in Headers */,
+				4DB8D68F2244ED1100670BC0 /* MSImmutablePage.h in Headers */,
+				4DA8CB3B2241369D00FC9D2D /* print_export.h in Headers */,
+				4DB8D6932244ED1100670BC0 /* MSImmutableModelObject.h in Headers */,
+				4DA18CC62243EF5D00D19222 /* PEUtils.h in Headers */,
+				4DB8D6992244F4D700670BC0 /* MSModelObject.h in Headers */,
+				4DB8D69B2244F51D00670BC0 /* MSPage.h in Headers */,
+				4DF78E85224BC8B8004024B0 /* PESketchMethods.h in Headers */,
+				4DA8CB442241397F00FC9D2D /* PEPrintExport.h in Headers */,
+				4DB8D6952244ED1100670BC0 /* MSImmutableArtboardGroup.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4DA8CB352241369D00FC9D2D /* print-export */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA8CB3E2241369D00FC9D2D /* Build configuration list for PBXNativeTarget "print-export" */;
+			buildPhases = (
+				8700C1F07C1BA4654B4A6F0A /* [CP] Check Pods Manifest.lock */,
+				4DA8CB312241369D00FC9D2D /* Headers */,
+				4DA8CB322241369D00FC9D2D /* Sources */,
+				4DA8CB332241369D00FC9D2D /* Frameworks */,
+				4DA8CB342241369D00FC9D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "print-export";
+			productName = "print-export";
+			productReference = 4DA8CB362241369D00FC9D2D /* print_export.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DA8CB2D2241369C00FC9D2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Sketch;
+				TargetAttributes = {
+					4DA8CB352241369D00FC9D2D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4DA8CB302241369C00FC9D2D /* Build configuration list for PBXProject "print-export" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DA8CB2C2241369C00FC9D2D;
+			productRefGroup = 4DA8CB372241369D00FC9D2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DA8CB352241369D00FC9D2D /* print-export */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DA8CB342241369D00FC9D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA8CB69224150DF00FC9D2D /* PEOptionsAccessoryView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8700C1F07C1BA4654B4A6F0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-print-export-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DA8CB322241369D00FC9D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA18CC72243EF5D00D19222 /* PEUtils.m in Sources */,
+				4DA8CB452241397F00FC9D2D /* PEPrintExport.m in Sources */,
+				4DA18CD02243F0B600D19222 /* MSConstants.m in Sources */,
+				4DF78E7A2248FB12004024B0 /* types.m in Sources */,
+				4DA18CB5224399DE00D19222 /* PEOptions.m in Sources */,
+				4DA18CBD2243ABD100D19222 /* PEDecimalFormatter.m in Sources */,
+				4DF78E712248DDC0004024B0 /* PEFlowConnection.m in Sources */,
+				4DF78E86224BC8B8004024B0 /* PESketchMethods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4DA8CB3C2241369D00FC9D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DA8CB3D2241369D00FC9D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DA8CB3F2241369D00FC9D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934C9379DCA27F4889B1A21D /* Pods-print-export.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COMMAND_LINE_BUILD = 0;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "print-export/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketch.print-export";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4DA8CB402241369D00FC9D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87F0855D9C588A6689F6891 /* Pods-print-export.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COMMAND_LINE_BUILD = 0;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "print-export/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sketch.print-export";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DA8CB302241369C00FC9D2D /* Build configuration list for PBXProject "print-export" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA8CB3C2241369D00FC9D2D /* Debug */,
+				4DA8CB3D2241369D00FC9D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DA8CB3E2241369D00FC9D2D /* Build configuration list for PBXNativeTarget "print-export" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA8CB3F2241369D00FC9D2D /* Debug */,
+				4DA8CB402241369D00FC9D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DA8CB2D2241369C00FC9D2D /* Project object */;
+}

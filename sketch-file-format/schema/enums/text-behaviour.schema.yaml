@@ -1,0 +1,11 @@
+title: Text Behaviour
+description: Enumeration of the behaviours for text layers
+type: integer
+enum:
+  - 0
+  - 1
+  - 2
+enumDescriptions:
+  - Flexible
+  - Fixed
+  - FixedWidthAndHeight

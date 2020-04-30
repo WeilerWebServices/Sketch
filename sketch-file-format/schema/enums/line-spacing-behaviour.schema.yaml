@@ -1,0 +1,11 @@
+title: Line Spacing Behaviour
+description: Enumeration of line spacing behaviour for fixed line height text
+type: integer
+enum:
+  - 0
+  - 1
+  - 2
+enumDescriptions:
+  - None
+  - Legacy
+  - Consistent baseline

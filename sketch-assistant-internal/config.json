@@ -1,0 +1,100 @@
+{
+  "@sketch-hq/sketch-assistant-core-rules/artboards-max-ungrouped-layers": {
+    "active": true,
+    "maxUngroupedLayers": 5
+  },
+  "@sketch-hq/sketch-assistant-core-rules/borders-no-disabled": {
+    "active": true
+  },
+  "@sketch-hq/sketch-assistant-core-rules/exported-layers-normal-blend-mode": {
+    "active": true
+  },
+  "@sketch-hq/sketch-assistant-core-rules/fills-no-disabled": {
+    "active": true
+  },
+  "@sketch-hq/sketch-assistant-core-rules/inner-shadows-no-disabled": {
+    "active": true
+  },
+  "@sketch-hq/sketch-assistant-core-rules/shadows-no-disabled": {
+    "active": true
+  },
+  "@sketch-hq/sketch-assistant-core-rules/layer-styles-no-dirty": {
+    "active": true
+  },
+  "@sketch-hq/sketch-assistant-core-rules/text-styles-no-dirty": {
+    "active": true
+  },
+  "@sketch-hq/sketch-assistant-core-rules/groups-no-empty": {
+    "active": true
+  },
+  "@sketch-hq/sketch-assistant-core-rules/groups-no-redundant": {
+    "active": true
+  },
+  "@sketch-hq/sketch-assistant-core-rules/layers-no-hidden": {
+    "active": true
+  },
+  "@sketch-hq/sketch-assistant-core-rules/images-no-outsized": {
+    "active": true,
+    "maxRatio": 2
+  },
+  "@sketch-hq/sketch-assistant-core-rules/images-no-undersized": {
+    "active": true,
+    "minRatio": 1
+  },
+  "@sketch-hq/sketch-assistant-core-rules/text-styles-prefer-shared": {
+    "active": true,
+    "maxIdentical": 1
+  },
+  "@sketch-hq/sketch-assistant-core-rules/layer-styles-prefer-shared": {
+    "active": true,
+    "maxIdentical": 1
+  },
+  "@sketch-hq/sketch-assistant-core-rules/layers-subpixel-positioning": {
+    "active": true,
+    "scaleFactors": ["@1x", "@2x"]
+  },
+  "@sketch-hq/sketch-assistant-core-rules/name-pattern-artboards": {
+    "active": true,
+    "forbidden": [
+    ],
+    "allowed": [
+      "^(?![a-zA-Z,.-_;!\"#$%&/()@Û£><|\\¼»`«])."
+    ]
+  },
+  "@sketch-hq/sketch-assistant-core-rules/name-pattern-symbols": {
+    "active": true,
+    "allowed": ["(^.+)(([/].*)+)\\w$"],
+    "forbidden": []
+  },
+  "@sketch-hq/sketch-assistant-core-rules/name-pattern-groups": {
+    "active": true,
+    "allowed": [],
+    "forbidden": ["^Group$", "Group Copy"]
+  },
+  "@sketch-hq/sketch-assistant-core-rules/name-pattern-pages": {
+    "active": true,
+    "forbidden": [
+    ],
+    "allowed": [
+      "^(?![a-zA-Z0-9,.-_;!\"#$%&/()@Û£><|\\¼»`«])."
+    ]
+  },
+  "@sketch-hq/sketch-assistant-core-rules/name-pattern-shapes": {
+    "active": true,
+    "allowed": [],
+    "forbidden": [
+      "^Rectangle( Copy)*$",
+      "^Oval( Copy)*$",
+      "^Line( Copy)*$",
+      "^Triangle( Copy)*$",
+      "^Star( Copy)*$",
+      "^Polygon( Copy)*$"
+    ]
+  },
+  "@sketch-hq/sketch-assistant-core-rules/shared-styles-no-unused": {
+    "active": true
+  },
+  "@sketch-hq/sketch-assistant-core-rules/layers-no-loose": {
+    "active": true
+  }
+}

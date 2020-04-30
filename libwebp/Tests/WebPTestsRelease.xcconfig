@@ -1,0 +1,2 @@
+#include "../BCFoundation/Configs/BCCore.xcconfig"
+#include "../BCFoundation/Configs/BCTests.xcconfig"

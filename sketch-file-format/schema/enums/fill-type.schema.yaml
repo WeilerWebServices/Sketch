@@ -1,0 +1,11 @@
+title: Fill Type
+description: Enumeration of the fill types
+type: integer
+enum:
+  - 0
+  - 1
+  - 4
+enumDescriptions:
+  - Color
+  - Gradient
+  - Pattern

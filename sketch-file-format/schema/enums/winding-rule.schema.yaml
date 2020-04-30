@@ -1,0 +1,11 @@
+title: Winding Rule
+description:
+  Enumeration of the winding rule that controls how fills behave in shapes with
+  complex paths
+type: integer
+enum:
+  - 0
+  - 1
+enumDescriptions:
+  - Non zero
+  - Even odd

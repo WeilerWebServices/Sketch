@@ -1,0 +1,4 @@
+
+// Common settings for the «changeme» project go here.
+
+#import <Foundation/Foundation.h>

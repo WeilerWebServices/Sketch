@@ -1,0 +1,12 @@
+title: Rectangle Layer
+description:
+  Rectangle layers are the result of adding a rectangle shape to the canvas
+type: object
+allOf:
+  - $ref: ./abstract-shape-layer.schema.yaml
+  - type: object
+    properties:
+      _class: { const: rectangle }
+      fixedRadius: { type: number }
+      hasConvertedToNewRoundCorners: { type: boolean }
+      needsConvertionToNewRoundCorners: { type: boolean }

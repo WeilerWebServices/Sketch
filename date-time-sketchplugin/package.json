@@ -1,0 +1,30 @@
+{
+  "name": "date-time",
+  "version": "1.0.2",
+  "description": "A data plugin that generates random dates and times",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "Date & Time",
+    "manifest": "src/manifest.json",
+    "main": "date-time.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "repository": {
+    "url": "https://github.com/BohemianCoding/date-time-sketchplugin"
+  },
+  "author": "Sketch",
+  "license": "MIT",
+  "devDependencies": {
+    "@skpm/builder": "^0.7.0"
+  }
+}

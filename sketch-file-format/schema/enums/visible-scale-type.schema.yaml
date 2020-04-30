@@ -1,0 +1,13 @@
+title: Visible Scale Type
+description:
+  Enumeration of the possible values to control how an exported layer will be
+  scaled
+type: integer
+enum:
+  - 0
+  - 1
+  - 2
+enumDescriptions:
+  - Scale
+  - Width
+  - Height

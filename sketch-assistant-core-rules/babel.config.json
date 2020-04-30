@@ -1,0 +1,26 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": { "node": "12.6.0" },
+        "modules": "cjs"
+      }
+    ],
+    "@babel/typescript"
+  ],
+  "plugins": ["@babel/proposal-class-properties", "@babel/proposal-object-rest-spread", "macros"],
+  "ignore": ["src/global.d.ts", ".yarn", "node_modules", "*.config.js", "dist"],
+  "env": {
+    "sketch": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "targets": { "safari": "10" }
+          }
+        ]
+      ]
+    }
+  }
+}

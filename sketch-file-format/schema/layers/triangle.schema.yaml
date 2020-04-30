@@ -1,0 +1,10 @@
+title: Triangle Layer
+description:
+  Triangle layers are the result of adding a triangle shape to the canvas
+type: object
+allOf:
+  - $ref: ./abstract-shape-layer.schema.yaml
+  - type: object
+    properties:
+      _class: { const: triangle }
+      isEquilateral: { type: boolean }

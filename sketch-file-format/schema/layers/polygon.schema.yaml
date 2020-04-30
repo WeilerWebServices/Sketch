@@ -1,0 +1,10 @@
+title: Polygon Layer
+description:
+  Polygon layers are the result of adding a polygon shape to the canvas
+type: object
+allOf:
+  - $ref: ./abstract-shape-layer.schema.yaml
+  - type: object
+    properties:
+      _class: { const: polygon }
+      numberOfPoints: { type: integer }

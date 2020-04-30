@@ -1,0 +1,8 @@
+title: Shared Style Container
+description: Defines a document's list of reusable styles
+type: object
+properties:
+  _class: { const: sharedStyleContainer }
+  objects:
+    type: array
+    items: { $ref: ./shared-style.schema.yaml }

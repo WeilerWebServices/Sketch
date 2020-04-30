@@ -1,0 +1,9 @@
+title: Ruler Data
+description: Defines persisted ruler positions on artboards, pages and symbols
+type: object
+properties:
+  _class: { const: rulerData }
+  base: { type: integer }
+  guides:
+    type: array
+    items: { type: integer }

@@ -1,0 +1,22 @@
+title: Color Controls
+description: Defines color adjust styles on images
+type: object
+properties:
+  _class: { const: colorControls }
+  isEnabled: { type: boolean }
+  brightness:
+    type: number
+    minimum: -100
+    maximum: 100
+  contrast:
+    type: number
+    minimum: -100
+    maximum: 100
+  hue:
+    type: number
+    minimum: -100
+    maximum: 100
+  saturation:
+    type: number
+    minimum: -100
+    maximum: 100

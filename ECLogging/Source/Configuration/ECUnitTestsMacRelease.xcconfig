@@ -1,0 +1,14 @@
+#include "../../../BCFoundation/Configs/BCCore.xcconfig"
+#include "../../../BCFoundation/Configs/BCFramework.xcconfig"
+
+PRODUCT_BUNDLE_IDENTIFIER = com.elegantchaos.frameworks.eclogging.tests
+PRODUCT_NAME = ECUnitTests
+
+INFOPLIST_FILE = Resources/Info.plist
+FRAMEWORK_SEARCH_PATHS = $(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks
+
+GCC_WARN_UNUSED_PARAMETER = NO
+GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO
+CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO
+GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO
+GCC_WARN_SIGN_COMPARE = NO

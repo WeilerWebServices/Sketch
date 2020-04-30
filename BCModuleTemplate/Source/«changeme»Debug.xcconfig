@@ -1,0 +1,5 @@
+#include "../BCFoundation/Configs/BCDebug.xcconfig"
+
+#include "«changeme»Shared.xcconfig"
+
+// Debug-only settings for the «changeme» project go here.

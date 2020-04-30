@@ -1,0 +1,85 @@
+{
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "autoExportOnSave",
+      "identifier": "autoExportOnSave",
+      "script": "./commands/autoExportOnSave.js",
+      "handlers": {
+        "actions": {
+          "DocumentSaved": "onRun"
+        }
+      }
+    },
+    {
+      "name": "Commit",
+      "identifier": "commit",
+      "shortcut": "cmd alt ctrl c",
+      "script": "./commands/Commit.js",
+      "description": "Commit your changes.",
+      "icon": "icons/commit.png"
+    },
+    {
+      "name": "Push",
+      "identifier": "push",
+      "shortcut": "cmd alt ctrl p",
+      "script": "./commands/Push.js",
+      "description": "Push your commits to GitHub.",
+      "icon": "icons/push.png"
+    },
+    {
+      "name": "Branches",
+      "identifier": "branches",
+      "shortcut": "cmd alt ctrl b",
+      "script": "./commands/Branches.js",
+      "description": "Manage git branches.",
+      "icon": "icons/branches.png"
+    },
+    {
+      "name": "Pull",
+      "identifier": "pull",
+      "script": "./commands/Pull.js",
+      "description": "Pull changes and branches from GitHub.",
+      "icon": "icons/pull.png"
+    },
+    {
+      "name": "Generate files for pretty diffs",
+      "identifier": "export",
+      "script": "./commands/Export.js"
+    },
+    {
+      "name": "Add file to git",
+      "identifier": "add",
+      "script": "./commands/Add.js"
+    },
+    {
+      "name": "Init git repo",
+      "identifier": "init",
+      "script": "./commands/Init.js"
+    },
+    {
+      "name": "Preferences",
+      "identifier": "preferences",
+      "script": "./commands/Preferences.js"
+    },
+    {
+      "name": "Open terminal",
+      "identifier": "terminal",
+      "script": "./commands/OpenTerminal.js"
+    }
+  ],
+  "menu": {
+    "title": "Git",
+    "items": [
+      "commit",
+      "push",
+      "branches",
+      "pull",
+      {
+        "title": "Advanced",
+        "items": ["init", "export", "add", "terminal"]
+      },
+      "preferences"
+    ]
+  }
+}

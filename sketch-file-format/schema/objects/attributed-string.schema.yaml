@@ -1,0 +1,10 @@
+title: Attributed String
+description:
+  Defines character strings and associated styling applied to character ranges
+type: object
+properties:
+  _class: { const: attributedString }
+  string: { type: string }
+  attributes:
+    type: array
+    items: { $ref: ./string-attribute.schema.yaml }

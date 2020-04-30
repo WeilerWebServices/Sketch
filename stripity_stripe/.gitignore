@@ -1,0 +1,17 @@
+/_build
+/deps
+erl_crash.dump
+*.ez
+config/config.secret.exs
+/doc
+.DS_Store
+tags
+
+# elixir LS files
+
+/.elixir_ls
+# IntelliJ IDEA files
+
+/.idea
+*.iml
+priv/plts/*

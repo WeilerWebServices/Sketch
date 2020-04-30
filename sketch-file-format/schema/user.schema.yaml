@@ -1,0 +1,25 @@
+title: User
+type: object
+propertyNames:
+  oneOf:
+    - { $ref: ../utils/uuid.schema.yaml }
+    - { const: document }
+properties:
+  document:
+    type: object
+    optional:
+      - expandedSymbolPathsInSidebar
+      - expandedTextStylePathsInPopover
+      - expandedTextStylePathsInPopover
+      - libraryListCollapsed
+    properties:
+      pageListHeight: { type: integer }
+      pageListCollapsed: { $ref: ../utils/numerical-bool.schema.yaml }
+      expandedSymbolPathsInSidebar: { type: array }
+      expandedTextStylePathsInPopover: { type: array }
+      libraryListCollapsed: { $ref: ../utils/numerical-bool.schema.yaml }
+additionalProperties:
+  type: object
+  properties:
+    scrollOrigin: { $ref: ../utils/point-string.schema.yaml }
+    zoomValue: { type: number }

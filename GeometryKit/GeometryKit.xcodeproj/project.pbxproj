@@ -1,0 +1,223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22FCC8C81756115300CAEA85 /* GeometryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FCC8A61756115300CAEA85 /* GeometryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22FCC8D91756115300CAEA85 /* GKRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FCC8B71756115300CAEA85 /* GKRect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22FCC8DA1756115300CAEA85 /* GKRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FCC8B81756115300CAEA85 /* GKRect.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		222D37C019ACE3240079F8BE /* GeometryKitDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GeometryKitDebug.xcconfig; sourceTree = "<group>"; };
+		222D37C119ACE3240079F8BE /* GeometryKitRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GeometryKitRelease.xcconfig; sourceTree = "<group>"; };
+		222D37C219ACE3240079F8BE /* GeometryKitShared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = GeometryKitShared.xcconfig; sourceTree = "<group>"; };
+		228CF22717562C58003E1D25 /* GeometryKitDebug.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeometryKitDebug.pch; sourceTree = "<group>"; };
+		228CF22817562C58003E1D25 /* GeometryKitRelease.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeometryKitRelease.pch; sourceTree = "<group>"; };
+		228CF22917562C58003E1D25 /* GeometryKitShared.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeometryKitShared.pch; sourceTree = "<group>"; };
+		22FCC8A61756115300CAEA85 /* GeometryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeometryKit.h; path = Source/GeometryKit.h; sourceTree = SOURCE_ROOT; };
+		22FCC8B71756115300CAEA85 /* GKRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKRect.h; path = Source/GKRect.h; sourceTree = SOURCE_ROOT; };
+		22FCC8B81756115300CAEA85 /* GKRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKRect.m; path = Source/GKRect.m; sourceTree = SOURCE_ROOT; };
+		F5C25A8916A46702002F7A70 /* libGeometryKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGeometryKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5C25A8616A46702002F7A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222D37C319ACE3280079F8BE /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				222D37C019ACE3240079F8BE /* GeometryKitDebug.xcconfig */,
+				222D37C119ACE3240079F8BE /* GeometryKitRelease.xcconfig */,
+				222D37C219ACE3240079F8BE /* GeometryKitShared.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		222D37C419ACE3310079F8BE /* Prefixes */ = {
+			isa = PBXGroup;
+			children = (
+				228CF22717562C58003E1D25 /* GeometryKitDebug.pch */,
+				228CF22817562C58003E1D25 /* GeometryKitRelease.pch */,
+				228CF22917562C58003E1D25 /* GeometryKitShared.pch */,
+			);
+			name = Prefixes;
+			sourceTree = "<group>";
+		};
+		F5C25A7E16A46702002F7A70 = {
+			isa = PBXGroup;
+			children = (
+				F5C25A9216A46702002F7A70 /* Source */,
+				F5C25A8B16A46702002F7A70 /* Frameworks */,
+				F5C25A8A16A46702002F7A70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5C25A8A16A46702002F7A70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5C25A8916A46702002F7A70 /* libGeometryKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5C25A8B16A46702002F7A70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5C25A9216A46702002F7A70 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				22FCC8A61756115300CAEA85 /* GeometryKit.h */,
+				22FCC8B71756115300CAEA85 /* GKRect.h */,
+				22FCC8B81756115300CAEA85 /* GKRect.m */,
+				F5C25A9316A46702002F7A70 /* Supporting Files */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F5C25A9316A46702002F7A70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				222D37C319ACE3280079F8BE /* Configuration */,
+				222D37C419ACE3310079F8BE /* Prefixes */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F5C25A8716A46702002F7A70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FCC8C81756115300CAEA85 /* GeometryKit.h in Headers */,
+				22FCC8D91756115300CAEA85 /* GKRect.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F5C25A8816A46702002F7A70 /* GeometryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C25A9A16A46702002F7A70 /* Build configuration list for PBXNativeTarget "GeometryKit" */;
+			buildPhases = (
+				F5C25A8516A46702002F7A70 /* Sources */,
+				F5C25A8616A46702002F7A70 /* Frameworks */,
+				F5C25A8716A46702002F7A70 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeometryKit;
+			productName = ArchivingKit;
+			productReference = F5C25A8916A46702002F7A70 /* libGeometryKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5C25A8016A46702002F7A70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Bohemian Coding";
+			};
+			buildConfigurationList = F5C25A8316A46702002F7A70 /* Build configuration list for PBXProject "GeometryKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5C25A7E16A46702002F7A70;
+			productRefGroup = F5C25A8A16A46702002F7A70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5C25A8816A46702002F7A70 /* GeometryKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5C25A8516A46702002F7A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FCC8DA1756115300CAEA85 /* GKRect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F5C25A9816A46702002F7A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		F5C25A9916A46702002F7A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		F5C25A9B16A46702002F7A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222D37C019ACE3240079F8BE /* GeometryKitDebug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		F5C25A9C16A46702002F7A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222D37C119ACE3240079F8BE /* GeometryKitRelease.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5C25A8316A46702002F7A70 /* Build configuration list for PBXProject "GeometryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C25A9816A46702002F7A70 /* Debug */,
+				F5C25A9916A46702002F7A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C25A9A16A46702002F7A70 /* Build configuration list for PBXNativeTarget "GeometryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C25A9B16A46702002F7A70 /* Debug */,
+				F5C25A9C16A46702002F7A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5C25A8016A46702002F7A70 /* Project object */;
+}

@@ -1,0 +1,34 @@
+// Copy to SVG
+// This plugin copies the selected object to the clipboard, as SVG
+
+function make_temp_folder(){
+  var guid = [[NSProcessInfo processInfo] globallyUniqueString]
+  var path = tmp_path + guid
+  [[NSFileManager defaultManager] createDirectoryAtPath:path withIntermediateDirectories:true attributes:nil error:nil]
+  export_path = path
+}
+function copy_text(txt){
+  var pasteBoard = [NSPasteboard generalPasteboard]
+  [pasteBoard declareTypes:[NSArray arrayWithObject:NSPasteboardTypeString] owner:nil]
+  [pasteBoard setString:txt forType:NSPasteboardTypeString]
+}
+function do_export(){
+  log("do_export")
+  var slice = [BCRect rectWithRect:rect];
+  [doc saveArtboardOrSlice:slice toFile:export_filename];
+  var file_url = [NSURL fileURLWithPath:export_filename]
+  var str = [[NSString alloc] initWithContentsOfURL:file_url]
+  copy_text(str)
+  [doc showMessage:"SVG Path copied to clipboard"]
+}
+
+var sel = context.selection[0],
+    doc = context.document,
+    rect = [sel absoluteInfluenceRect],
+    tmp_path = "/tmp/com.bomberstudios.sketch-commands/",
+    export_path;
+
+make_temp_folder()
+
+var export_filename = export_path + "/" + [sel name] + ".svg";
+do_export()

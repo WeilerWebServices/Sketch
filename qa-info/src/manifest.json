@@ -1,0 +1,29 @@
+{
+  "compatibleVersion": 3,
+  "identifier": "com.sketchapp.plugins.qa-info",
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "QA Info",
+      "identifier": "qa-info",
+      "script": "./qa-info.js",
+      "shortcut" : "control i",
+      "handler": "onQAInfo"
+    },
+    {
+      "name": "QA Info (No Plugins)",
+      "identifier": "qa-info-no-plugins",
+      "script": "./qa-info.js",
+      "shortcut" : "control shift i",
+      "handler": "onQAInfoNoPlugins"
+    }
+  ],
+  "menu": {
+    "title": "QA Info",
+    "items": [
+      "qa-info",
+      "qa-info-no-plugins"
+    ]
+  }
+}

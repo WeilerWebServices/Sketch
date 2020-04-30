@@ -1,0 +1,2222 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CSAPI(Clients) Category Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CreateSend </a></h1>
+				<a id="developerHome" href="../index.html">Campaign Monitor</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CSAPI(Clients) Category Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addPersonWithClientID:name:emailAddress:password:accessLevel:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- addPersonWithClientID:name:emailAddress:password:accessLevel:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/createClientWithCompanyName:country:timezone:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- createClientWithCompanyName:country:timezone:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/deleteClientWithID:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteClientWithID:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/deletePersonWithClientID:emailAddress:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- deletePersonWithClientID:emailAddress:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/getClientDetailsWithClientID:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- getClientDetailsWithClientID:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/getDraftCampaignsWithClientID:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- getDraftCampaignsWithClientID:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/getPeopleWithClientID:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- getPeopleWithClientID:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/getPersonDetailsWithClientID:emailAddress:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- getPersonDetailsWithClientID:emailAddress:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/getPrimaryContactWithClientID:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- getPrimaryContactWithClientID:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/getScheduledCampaignsWithClientID:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- getScheduledCampaignsWithClientID:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/getSegmentsWithClientID:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- getSegmentsWithClientID:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/getSentCampaignsWithClientID:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- getSentCampaignsWithClientID:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/getSubscriberListsForEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- getSubscriberListsForEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/getSubscriberListsWithClientID:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- getSubscriberListsWithClientID:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/getSuppressionListWithClientID:page:pageSize:orderField:ascending:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- getSuppressionListWithClientID:page:pageSize:orderField:ascending:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/getTemplatesWithClientID:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- getTemplatesWithClientID:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/setClientMonthlyBillingWithClientID:currency:clientPays:markupPercentage:monthlyScheme:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- setClientMonthlyBillingWithClientID:currency:clientPays:markupPercentage:monthlyScheme:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/setClientPAYGBillingSettingsWithClientID:currency:canPurchaseCredits:clientPays:markupPercentage:markupOnDelivery:markupPerRecipient:markupOnDesignSpamTest:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- setClientPAYGBillingSettingsWithClientID:currency:canPurchaseCredits:clientPays:markupPercentage:markupOnDelivery:markupPerRecipient:markupOnDesignSpamTest:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/setPrimaryContactWithClientID:emailAddress:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- setPrimaryContactWithClientID:emailAddress:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/suppressEmailAddressesWithClientID:emailAddresses:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- suppressEmailAddressesWithClientID:emailAddresses:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/transferCreditsWithClientID:credits:canUseMyCreditsWhenTheyRunOut:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- transferCreditsWithClientID:credits:canUseMyCreditsWhenTheyRunOut:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/unsuppressEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- unsuppressEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/updateClientWithClientID:companyName:country:timezone:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- updateClientWithClientID:companyName:country:timezone:completionHandler:errorHandler:</option>
+	
+	<option value="//api/name/updatePersonWithClientID:name:currentEmailAddress:newEmailAddress:password:accessLevel:completionHandler:errorHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- updatePersonWithClientID:name:currentEmailAddress:newEmailAddress:password:accessLevel:completionHandler:errorHandler:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addPersonWithClientID:name:emailAddress:password:accessLevel:completionHandler:errorHandler:">addPersonWithClientID:name:emailAddress:password:accessLevel:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createClientWithCompanyName:country:timezone:completionHandler:errorHandler:">createClientWithCompanyName:country:timezone:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteClientWithID:completionHandler:errorHandler:">deleteClientWithID:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deletePersonWithClientID:emailAddress:completionHandler:errorHandler:">deletePersonWithClientID:emailAddress:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getClientDetailsWithClientID:completionHandler:errorHandler:">getClientDetailsWithClientID:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getDraftCampaignsWithClientID:completionHandler:errorHandler:">getDraftCampaignsWithClientID:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getPeopleWithClientID:completionHandler:errorHandler:">getPeopleWithClientID:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getPersonDetailsWithClientID:emailAddress:completionHandler:errorHandler:">getPersonDetailsWithClientID:emailAddress:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getPrimaryContactWithClientID:completionHandler:errorHandler:">getPrimaryContactWithClientID:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getScheduledCampaignsWithClientID:completionHandler:errorHandler:">getScheduledCampaignsWithClientID:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getSegmentsWithClientID:completionHandler:errorHandler:">getSegmentsWithClientID:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getSentCampaignsWithClientID:completionHandler:errorHandler:">getSentCampaignsWithClientID:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getSubscriberListsForEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:">getSubscriberListsForEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getSubscriberListsWithClientID:completionHandler:errorHandler:">getSubscriberListsWithClientID:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getSuppressionListWithClientID:page:pageSize:orderField:ascending:completionHandler:errorHandler:">getSuppressionListWithClientID:page:pageSize:orderField:ascending:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getTemplatesWithClientID:completionHandler:errorHandler:">getTemplatesWithClientID:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setClientMonthlyBillingWithClientID:currency:clientPays:markupPercentage:monthlyScheme:completionHandler:errorHandler:">setClientMonthlyBillingWithClientID:currency:clientPays:markupPercentage:monthlyScheme:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setClientPAYGBillingSettingsWithClientID:currency:canPurchaseCredits:clientPays:markupPercentage:markupOnDelivery:markupPerRecipient:markupOnDesignSpamTest:completionHandler:errorHandler:">setClientPAYGBillingSettingsWithClientID:currency:canPurchaseCredits:clientPays:markupPercentage:markupOnDelivery:markupPerRecipient:markupOnDesignSpamTest:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setPrimaryContactWithClientID:emailAddress:completionHandler:errorHandler:">setPrimaryContactWithClientID:emailAddress:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/suppressEmailAddressesWithClientID:emailAddresses:completionHandler:errorHandler:">suppressEmailAddressesWithClientID:emailAddresses:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transferCreditsWithClientID:credits:canUseMyCreditsWhenTheyRunOut:completionHandler:errorHandler:">transferCreditsWithClientID:credits:canUseMyCreditsWhenTheyRunOut:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unsuppressEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:">unsuppressEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateClientWithClientID:companyName:country:timezone:completionHandler:errorHandler:">updateClientWithClientID:companyName:country:timezone:completionHandler:errorHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updatePersonWithClientID:name:currentEmailAddress:newEmailAddress:password:accessLevel:completionHandler:errorHandler:">updatePersonWithClientID:name:currentEmailAddress:newEmailAddress:password:accessLevel:completionHandler:errorHandler:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CSAPI(Clients) Category Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CSAPI(Clients) Category Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CSAPI+Clients.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Client-related APIs. See <a href="../Classes/CSAPI.html">CSAPI</a> for documentation of the other API categories.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createClientWithCompanyName:country:timezone:completionHandler:errorHandler:">&ndash;&nbsp;createClientWithCompanyName:country:timezone:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Create a new client in your account with basic information and no access to the application.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateClientWithClientID:companyName:country:timezone:completionHandler:errorHandler:">&ndash;&nbsp;updateClientWithClientID:companyName:country:timezone:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Update the basic account details for an existing client in your account.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteClientWithID:completionHandler:errorHandler:">&ndash;&nbsp;deleteClientWithID:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Delete an existing client from your account.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setClientPAYGBillingSettingsWithClientID:currency:canPurchaseCredits:clientPays:markupPercentage:markupOnDelivery:markupPerRecipient:markupOnDesignSpamTest:completionHandler:errorHandler:">&ndash;&nbsp;setClientPAYGBillingSettingsWithClientID:currency:canPurchaseCredits:clientPays:markupPercentage:markupOnDelivery:markupPerRecipient:markupOnDesignSpamTest:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Set if a client can pay for their own campaigns and design and spam tests using
+our PAYG billing. Set the mark-up percentage on each type of fee, and if the
+client can purchase their own email credits to access bulk discounts.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setClientMonthlyBillingWithClientID:currency:clientPays:markupPercentage:monthlyScheme:completionHandler:errorHandler:">&ndash;&nbsp;setClientMonthlyBillingWithClientID:currency:clientPays:markupPercentage:monthlyScheme:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Set if a client can pay for their own campaigns and design and spam tests using
+our monthly billing. Set the currency they should pay in plus mark-up
+percentage that will apply to the base prices at each pricing tier.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transferCreditsWithClientID:credits:canUseMyCreditsWhenTheyRunOut:completionHandler:errorHandler:">&ndash;&nbsp;transferCreditsWithClientID:credits:canUseMyCreditsWhenTheyRunOut:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Transfer credits from your account to a client, or transfer credits from a
+client to your account. The credits parameter should be either a positive
+integer if you wish to allocate credits from your account to the client, or
+a negative integer if you wish to deduct credits from the client back into
+your account.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getClientDetailsWithClientID:completionHandler:errorHandler:">&ndash;&nbsp;getClientDetailsWithClientID:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Get the complete details for a client including their API key, access level,
+contact details and billing settings.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getSentCampaignsWithClientID:completionHandler:errorHandler:">&ndash;&nbsp;getSentCampaignsWithClientID:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Get a list of all sent campaigns for a client.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getScheduledCampaignsWithClientID:completionHandler:errorHandler:">&ndash;&nbsp;getScheduledCampaignsWithClientID:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Get a list of all currently scheduled campaigns for a client.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getDraftCampaignsWithClientID:completionHandler:errorHandler:">&ndash;&nbsp;getDraftCampaignsWithClientID:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Get a list of all draft campaigns belonging to a client.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getSubscriberListsWithClientID:completionHandler:errorHandler:">&ndash;&nbsp;getSubscriberListsWithClientID:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Get all the subscriber lists that belong to a client.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getSubscriberListsForEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:">&ndash;&nbsp;getSubscriberListsForEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Get all the subscriber lists across the client, to which an email address is subscribed.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getSuppressionListWithClientID:page:pageSize:orderField:ascending:completionHandler:errorHandler:">&ndash;&nbsp;getSuppressionListWithClientID:page:pageSize:orderField:ascending:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Get a paged result representing the client&rsquo;s suppression list.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/suppressEmailAddressesWithClientID:emailAddresses:completionHandler:errorHandler:">&ndash;&nbsp;suppressEmailAddressesWithClientID:emailAddresses:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Adds email addresses to the client&rsquo;s suppression list.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unsuppressEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:">&ndash;&nbsp;unsuppressEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Unsuppress an email addresses (remove the email address from the client&rsquo;s suppression list).</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getSegmentsWithClientID:completionHandler:errorHandler:">&ndash;&nbsp;getSegmentsWithClientID:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Get a list of all segments belonging to a particular client.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getTemplatesWithClientID:completionHandler:errorHandler:">&ndash;&nbsp;getTemplatesWithClientID:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Get a list of all templates belonging to a particular client.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addPersonWithClientID:name:emailAddress:password:accessLevel:completionHandler:errorHandler:">&ndash;&nbsp;addPersonWithClientID:name:emailAddress:password:accessLevel:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Adds a new person to the client with the specified access.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updatePersonWithClientID:name:currentEmailAddress:newEmailAddress:password:accessLevel:completionHandler:errorHandler:">&ndash;&nbsp;updatePersonWithClientID:name:currentEmailAddress:newEmailAddress:password:accessLevel:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Updates any aspect of a person including their email address, name and access level.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getPeopleWithClientID:completionHandler:errorHandler:">&ndash;&nbsp;getPeopleWithClientID:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Get all the (active or invited) people associated with a particular client</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getPersonDetailsWithClientID:emailAddress:completionHandler:errorHandler:">&ndash;&nbsp;getPersonDetailsWithClientID:emailAddress:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Returns the details of a single person associated with a client.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deletePersonWithClientID:emailAddress:completionHandler:errorHandler:">&ndash;&nbsp;deletePersonWithClientID:emailAddress:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Changes the status of an active person to a deleted person. They will no longer be able to log into this client.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setPrimaryContactWithClientID:emailAddress:completionHandler:errorHandler:">&ndash;&nbsp;setPrimaryContactWithClientID:emailAddress:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Sets the primary contact for the client to be the person with the specified email address.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getPrimaryContactWithClientID:completionHandler:errorHandler:">&ndash;&nbsp;getPrimaryContactWithClientID:completionHandler:errorHandler:</a></code>
+		<span class="tooltip"><p>Returns the email address of the person who is selected as the primary contact for this client.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addPersonWithClientID:name:emailAddress:password:accessLevel:completionHandler:errorHandler:" title="addPersonWithClientID:name:emailAddress:password:accessLevel:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">addPersonWithClientID:name:emailAddress:password:accessLevel:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a new person to the client with the specified access.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addPersonWithClientID:(NSString *)<em>clientID</em> name:(NSString *)<em>name</em> emailAddress:(NSString *)<em>emailAddress</em> password:(NSString *)<em>password</em> accessLevel:(NSUInteger)<em>accessLevel</em> completionHandler:(void ( ^ ) ( NSString *personEmailAddress ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client to add the person to</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>name</em></dt>
+			<dd><p>Name of the person</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>emailAddress</em></dt>
+			<dd><p>Primary email address of the person</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>password</em></dt>
+			<dd><p>Optional password for the person</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>accessLevel</em></dt>
+			<dd><p>Access level as per documentation listed in discussion</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with email address of the successfully added person as the only argument</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#adding_a_person</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createClientWithCompanyName:country:timezone:completionHandler:errorHandler:" title="createClientWithCompanyName:country:timezone:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">createClientWithCompanyName:country:timezone:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Create a new client in your account with basic information and no access to the application.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)createClientWithCompanyName:(NSString *)<em>companyName</em> country:(NSString *)<em>country</em> timezone:(NSString *)<em>timezone</em> completionHandler:(void ( ^ ) ( NSString *clientID ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>companyName</em></dt>
+			<dd><p>Company name of the new client</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>country</em></dt>
+			<dd><p>Country (see getCountries:errorHandler:)</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>timezone</em></dt>
+			<dd><p>Timezone (see getTimezones:errorHandler:)</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with ID of the successfully created client as the only argument</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#creating_a_client</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteClientWithID:completionHandler:errorHandler:" title="deleteClientWithID:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">deleteClientWithID:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Delete an existing client from your account.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)deleteClientWithID:(NSString *)<em>clientID</em> completionHandler:(void ( ^ ) ( void ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client to be deleted</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#deleting_a_client</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deletePersonWithClientID:emailAddress:completionHandler:errorHandler:" title="deletePersonWithClientID:emailAddress:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">deletePersonWithClientID:emailAddress:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Changes the status of an active person to a deleted person. They will no longer be able to log into this client.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)deletePersonWithClientID:(NSString *)<em>clientID</em> emailAddress:(NSString *)<em>emailAddress</em> completionHandler:(void ( ^ ) ( void ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which the person details should be deleted.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>emailAddress</em></dt>
+			<dd><p>The email address of the person to be deleted.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#deleting_a_person</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getClientDetailsWithClientID:completionHandler:errorHandler:" title="getClientDetailsWithClientID:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">getClientDetailsWithClientID:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get the complete details for a client including their API key, access level,
+contact details and billing settings.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)getClientDetailsWithClientID:(NSString *)<em>clientID</em> completionHandler:(void ( ^ ) ( CSClient *client ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client to be retrieved</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with a <code>CSClient</code> object as the first and only argument</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#client_details</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getDraftCampaignsWithClientID:completionHandler:errorHandler:" title="getDraftCampaignsWithClientID:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">getDraftCampaignsWithClientID:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get a list of all draft campaigns belonging to a client.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)getDraftCampaignsWithClientID:(NSString *)<em>clientID</em> completionHandler:(void ( ^ ) ( NSArray *campaigns ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which draft campaigns should be retrieved</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with an array of <code>CSCampaign</code> objects as the first and only argument.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#draft_campaigns</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getPeopleWithClientID:completionHandler:errorHandler:" title="getPeopleWithClientID:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">getPeopleWithClientID:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get all the (active or invited) people associated with a particular client</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)getPeopleWithClientID:(NSString *)<em>clientID</em> completionHandler:(void ( ^ ) ( NSArray *people ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which the people should be retrieved</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with an array of <code>CSPerson</code> objects as the first and only argument</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#getting_client_people</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getPersonDetailsWithClientID:emailAddress:completionHandler:errorHandler:" title="getPersonDetailsWithClientID:emailAddress:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">getPersonDetailsWithClientID:emailAddress:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the details of a single person associated with a client.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)getPersonDetailsWithClientID:(NSString *)<em>clientID</em> emailAddress:(NSString *)<em>emailAddress</em> completionHandler:(void ( ^ ) ( CSPerson *person ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which the person details should be retrieved</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>emailAddress</em></dt>
+			<dd><p>The email address of the person whose information should be retrieved.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with a <code>CSPerson</code> as the only argument.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#getting_client_person</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getPrimaryContactWithClientID:completionHandler:errorHandler:" title="getPrimaryContactWithClientID:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">getPrimaryContactWithClientID:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the email address of the person who is selected as the primary contact for this client.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)getPrimaryContactWithClientID:(NSString *)<em>clientID</em> completionHandler:(void ( ^ ) ( NSString *primaryContactEmailAddress ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which the primary contact is to be set.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with email address of the primary contact as the only argument</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#getting_primary_contact</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getScheduledCampaignsWithClientID:completionHandler:errorHandler:" title="getScheduledCampaignsWithClientID:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">getScheduledCampaignsWithClientID:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get a list of all currently scheduled campaigns for a client.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)getScheduledCampaignsWithClientID:(NSString *)<em>clientID</em> completionHandler:(void ( ^ ) ( NSArray *campaigns ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which scheduled campaigns should be retrieved</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with an array of <code>CSCampaign</code> objects as the first and only argument.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#scheduled_campaigns</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getSegmentsWithClientID:completionHandler:errorHandler:" title="getSegmentsWithClientID:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">getSegmentsWithClientID:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get a list of all segments belonging to a particular client.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)getSegmentsWithClientID:(NSString *)<em>clientID</em> completionHandler:(void ( ^ ) ( NSArray *segments ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which segments should be retrieved</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with an array of <code>CSSegment</code> objects as the first and only argument</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#segments</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getSentCampaignsWithClientID:completionHandler:errorHandler:" title="getSentCampaignsWithClientID:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">getSentCampaignsWithClientID:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get a list of all sent campaigns for a client.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)getSentCampaignsWithClientID:(NSString *)<em>clientID</em> completionHandler:(void ( ^ ) ( NSArray *campaigns ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which sent campaigns should be retrieved</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with an array of <code>CSCampaign</code> objects as the first and only argument.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#sent_campaigns</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getSubscriberListsForEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:" title="getSubscriberListsForEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">getSubscriberListsForEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get all the subscriber lists across the client, to which an email address is subscribed.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)getSubscriberListsForEmailAddressWithClientID:(NSString *)<em>clientID</em> emailAddress:(NSString *)<em>emailAddress</em> completionHandler:(void ( ^ ) ( NSArray *subscriberLists ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which lists should be retrieved</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>emailAddress</em></dt>
+			<dd><p>The email address for which lists should be retrieved</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with an array of <code>CSListForSubscriber</code> objects as the first and only argument</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#lists_for_email</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getSubscriberListsWithClientID:completionHandler:errorHandler:" title="getSubscriberListsWithClientID:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">getSubscriberListsWithClientID:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get all the subscriber lists that belong to a client.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)getSubscriberListsWithClientID:(NSString *)<em>clientID</em> completionHandler:(void ( ^ ) ( NSArray *subscriberLists ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which subscriber lists should be retrieved</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with an array of <code>CSList</code> objects as the first and only argument</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#subscriber_lists</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getSuppressionListWithClientID:page:pageSize:orderField:ascending:completionHandler:errorHandler:" title="getSuppressionListWithClientID:page:pageSize:orderField:ascending:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">getSuppressionListWithClientID:page:pageSize:orderField:ascending:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get a paged result representing the client&rsquo;s suppression list.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)getSuppressionListWithClientID:(NSString *)<em>clientID</em> page:(NSUInteger)<em>page</em> pageSize:(NSUInteger)<em>pageSize</em> orderField:(NSString *)<em>orderField</em> ascending:(BOOL)<em>ascending</em> completionHandler:(void ( ^ ) ( CSPaginatedResult *paginatedResult ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which the suppression list should be retrieved</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>page</em></dt>
+			<dd><p>The page to retrieve</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>pageSize</em></dt>
+			<dd><p>The number of records to retrieve per page. Values accepted are between <code>10</code> and <code>1000</code>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>orderField</em></dt>
+			<dd><p>The field which should be used to order the result. Values accepted are <code>email</code>, <code>name</code> or <code>date</code>.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>ascending</em></dt>
+			<dd><p>Whether to sort the list (see <code>orderField</code>) in ascending order</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with a <code>CSPaginatedResult</code> as the first and only argument. Items in the result list are <code>CSSuppressedRecipient</code></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#suppression_list</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getTemplatesWithClientID:completionHandler:errorHandler:" title="getTemplatesWithClientID:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">getTemplatesWithClientID:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get a list of all templates belonging to a particular client.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)getTemplatesWithClientID:(NSString *)<em>clientID</em> completionHandler:(void ( ^ ) ( NSArray *templates ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which templates should be retrieved</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with an array of <code>CSTemplate</code> objects as the first and only argument</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#templates</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setClientMonthlyBillingWithClientID:currency:clientPays:markupPercentage:monthlyScheme:completionHandler:errorHandler:" title="setClientMonthlyBillingWithClientID:currency:clientPays:markupPercentage:monthlyScheme:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">setClientMonthlyBillingWithClientID:currency:clientPays:markupPercentage:monthlyScheme:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set if a client can pay for their own campaigns and design and spam tests using
+our monthly billing. Set the currency they should pay in plus mark-up
+percentage that will apply to the base prices at each pricing tier.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setClientMonthlyBillingWithClientID:(NSString *)<em>clientID</em> currency:(NSString *)<em>currency</em> clientPays:(BOOL)<em>clientPays</em> markupPercentage:(float)<em>markupPercentage</em> monthlyScheme:(NSString *)<em>monthlyScheme</em> completionHandler:(void ( ^ ) ( void ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which monthly billing settings should be set</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>currency</em></dt>
+			<dd><p>The currency to bill in. Values accepted are:</p>
+
+<ul>
+<li><code>USD</code> (US Dollars)</li>
+<li><code>GBP</code> (Great Britain Pounds)</li>
+<li><code>EUR</code> (Euros)</li>
+<li><code>CAD</code> (Canadian Dollars)</li>
+<li><code>AUD</code> (Australian Dollars)</li>
+<li><code>NZD</code> (New Zealand Dollars)</li>
+</ul>
+</dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientPays</em></dt>
+			<dd><p>Whether or not the client can pay for their own campaigns and design and spam tests</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>markupPercentage</em></dt>
+			<dd><p>Markup as a percentage</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>monthlyScheme</em></dt>
+			<dd><p>The monthly scheme for the client. Must be either:</p>
+
+<ul>
+<li><code>Basic</code></li>
+<li><code>Unlimited</code></li>
+<li>Or an empty string if you do not wish to use a monthly billing scheme.</li>
+</ul>
+</dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#setting_monthly_billing</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setClientPAYGBillingSettingsWithClientID:currency:canPurchaseCredits:clientPays:markupPercentage:markupOnDelivery:markupPerRecipient:markupOnDesignSpamTest:completionHandler:errorHandler:" title="setClientPAYGBillingSettingsWithClientID:currency:canPurchaseCredits:clientPays:markupPercentage:markupOnDelivery:markupPerRecipient:markupOnDesignSpamTest:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">setClientPAYGBillingSettingsWithClientID:currency:canPurchaseCredits:clientPays:markupPercentage:markupOnDelivery:markupPerRecipient:markupOnDesignSpamTest:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set if a client can pay for their own campaigns and design and spam tests using
+our PAYG billing. Set the mark-up percentage on each type of fee, and if the
+client can purchase their own email credits to access bulk discounts.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setClientPAYGBillingSettingsWithClientID:(NSString *)<em>clientID</em> currency:(NSString *)<em>currency</em> canPurchaseCredits:(BOOL)<em>canPurchaseCredits</em> clientPays:(BOOL)<em>clientPays</em> markupPercentage:(float)<em>markupPercentage</em> markupOnDelivery:(float)<em>markupOnDelivery</em> markupPerRecipient:(float)<em>markupPerRecipient</em> markupOnDesignSpamTest:(float)<em>markupOnDesignSpamTest</em> completionHandler:(void ( ^ ) ( void ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which PAYG billing settings should be set</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>currency</em></dt>
+			<dd><p>The currency to bill in. Values accepted are:</p>
+
+<ul>
+<li><code>USD</code> (US Dollars)</li>
+<li><code>GBP</code> (Great Britain Pounds)</li>
+<li><code>EUR</code> (Euros)</li>
+<li><code>CAD</code> (Canadian Dollars)</li>
+<li><code>AUD</code> (Australian Dollars)</li>
+<li><code>NZD</code> (New Zealand Dollars)</li>
+</ul>
+</dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>canPurchaseCredits</em></dt>
+			<dd><p>Whether or not the client can purchase their own email credits to access bulk discounts</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientPays</em></dt>
+			<dd><p>Whether or not the client can pay for their own campaigns and design and spam tests</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>markupPercentage</em></dt>
+			<dd><p>Markup as a percentage</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>markupOnDelivery</em></dt>
+			<dd><p>Markup in the major unit for the specified currency (e.g. <code>6.5f</code> means $6.50)</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>markupPerRecipient</em></dt>
+			<dd><p>Markup in the minor unit for the specified currency (e.g. <code>6.5f</code> means 6.5 cents)</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>markupOnDesignSpamTest</em></dt>
+			<dd><p>Markup in the major unit for the specified currency (e.g. <code>6.5f</code> means $6.50)</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#setting_payg_billing</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setPrimaryContactWithClientID:emailAddress:completionHandler:errorHandler:" title="setPrimaryContactWithClientID:emailAddress:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">setPrimaryContactWithClientID:emailAddress:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the primary contact for the client to be the person with the specified email address.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setPrimaryContactWithClientID:(NSString *)<em>clientID</em> emailAddress:(NSString *)<em>emailAddress</em> completionHandler:(void ( ^ ) ( NSString *primaryContactEmailAddress ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which the primary contact is to be set.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>emailAddress</em></dt>
+			<dd><p>The email address of the person to be assigned as the primary contact for the client.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with email address of the primary contact as the only argument</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#setting_primary_contact</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/suppressEmailAddressesWithClientID:emailAddresses:completionHandler:errorHandler:" title="suppressEmailAddressesWithClientID:emailAddresses:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">suppressEmailAddressesWithClientID:emailAddresses:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds email addresses to the client&rsquo;s suppression list.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)suppressEmailAddressesWithClientID:(NSString *)<em>clientID</em> emailAddresses:(NSArray *)<em>emailAddresses</em> completionHandler:(void ( ^ ) ( void ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client whose suppression list will have the provided
+email addresses added to it.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>emailAddresses</em></dt>
+			<dd><p>A collection of email addresses which will be suppressed.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#suppress_email_addresses</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transferCreditsWithClientID:credits:canUseMyCreditsWhenTheyRunOut:completionHandler:errorHandler:" title="transferCreditsWithClientID:credits:canUseMyCreditsWhenTheyRunOut:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">transferCreditsWithClientID:credits:canUseMyCreditsWhenTheyRunOut:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Transfer credits from your account to a client, or transfer credits from a
+client to your account. The credits parameter should be either a positive
+integer if you wish to allocate credits from your account to the client, or
+a negative integer if you wish to deduct credits from the client back into
+your account.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)transferCreditsWithClientID:(NSString *)<em>clientID</em> credits:(NSInteger)<em>credits</em> canUseMyCreditsWhenTheyRunOut:(BOOL)<em>canUseMyCreditsWhenTheyRunOut</em> completionHandler:(void ( ^ ) ( NSUInteger accountCredits , NSUInteger clientCredits ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which the credit transfer will be made.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>credits</em></dt>
+			<dd><p>The number of credits to transfer to/from the client. For example,
+to deduct 200 credits from a client (and transfer those credits back to your
+account) you would provide a value of -200. To allocate 200 credits from your
+account to a client, you would provide a value of 200.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>canUseMyCreditsWhenTheyRunOut</em></dt>
+			<dd><p>Whether or not the client will be able to
+continue sending using your credits or payment details once they run out of
+credits.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with the resulting number of
+credits remaining in your account as the first argument, and the resulting number
+of credits belonging to the client as the second argument.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#transfer_credits</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unsuppressEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:" title="unsuppressEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">unsuppressEmailAddressWithClientID:emailAddress:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unsuppress an email addresses (remove the email address from the client&rsquo;s suppression list).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)unsuppressEmailAddressWithClientID:(NSString *)<em>clientID</em> emailAddress:(NSString *)<em>emailAddress</em> completionHandler:(void ( ^ ) ( void ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client whose suppression list will have the provided
+email address removed from it.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>emailAddress</em></dt>
+			<dd><p>The email address to be removed from the suppression list.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#unsuppress_an_email</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateClientWithClientID:companyName:country:timezone:completionHandler:errorHandler:" title="updateClientWithClientID:companyName:country:timezone:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">updateClientWithClientID:companyName:country:timezone:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Update the basic account details for an existing client in your account.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)updateClientWithClientID:(NSString *)<em>clientID</em> companyName:(NSString *)<em>companyName</em> country:(NSString *)<em>country</em> timezone:(NSString *)<em>timezone</em> completionHandler:(void ( ^ ) ( void ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client for which basic details should be set</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>companyName</em></dt>
+			<dd><p>Company name of the client</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>country</em></dt>
+			<dd><p>Country (see getCountries:errorHandler:)</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>timezone</em></dt>
+			<dd><p>Timezone (see getTimezones:errorHandler:)</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#setting_basic_details</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updatePersonWithClientID:name:currentEmailAddress:newEmailAddress:password:accessLevel:completionHandler:errorHandler:" title="updatePersonWithClientID:name:currentEmailAddress:newEmailAddress:password:accessLevel:completionHandler:errorHandler:"></a>
+	<h3 class="subsubtitle method-title">updatePersonWithClientID:name:currentEmailAddress:newEmailAddress:password:accessLevel:completionHandler:errorHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Updates any aspect of a person including their email address, name and access level.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)updatePersonWithClientID:(NSString *)<em>clientID</em> name:(NSString *)<em>name</em> currentEmailAddress:(NSString *)<em>currentEmailAddress</em> newEmailAddress:(NSString *)<em>newEmailAddress</em> password:(NSString *)<em>password</em> accessLevel:(NSUInteger)<em>accessLevel</em> completionHandler:(void ( ^ ) ( NSString *personEmailAddress ))<em>completionHandler</em> errorHandler:(CSAPIErrorHandler)<em>errorHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>clientID</em></dt>
+			<dd><p>The ID of the client to add the person to</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>name</em></dt>
+			<dd><p>Name of the person</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>currentEmailAddress</em></dt>
+			<dd><p>Existing email address of the person</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>newEmailAddress</em></dt>
+			<dd><p>New email address of the person</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>password</em></dt>
+			<dd><p>Optional password for the person</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>accessLevel</em></dt>
+			<dd><p>Access level as per documentation listed in discussion</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>Completion callback, with email address of the successfully added person as the only argument</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorHandler</em></dt>
+			<dd><p>Error callback</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p><a href="http://www.campaignmonitor.com/api/clients/">http://www.campaignmonitor.com/api/clients/</a>#updating_a_person</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CSAPI+Clients.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Campaign Monitor. All rights reserved. (Last updated: 2013-04-18)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

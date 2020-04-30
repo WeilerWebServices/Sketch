@@ -1,0 +1,42 @@
+{
+  "name": "@sketch-hq/sketch-reference-files",
+  "description": "A store of automatically generated Sketch file JSON organised by document version and Sketch feature",
+  "version": "2.3.0",
+  "main": "dist/index",
+  "types": "dist/index",
+  "repository": "github:sketch-hq/sketch-reference-files",
+  "files": [
+    "files",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "download-apps": "ts-node ./scripts/download-sketch-apps.ts",
+    "generate-files": "ts-node ./scripts/generate-ref-files.ts",
+    "build": "yarn webpack && rm -rf dist/scripts && yarn update-readme",
+    "update-readme": "ts-node ./scripts/update-readme.ts",
+    "release": "yarn build && changeset publish",
+    "format-check": "prettier --check **/*.{ts,js,md,json}"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@changesets/cli": "2.5.1",
+    "@commitlint/cli": "8.2.0",
+    "@commitlint/config-conventional": "8.2.0",
+    "@commitlint/prompt-cli": "8.3.5",
+    "@types/node": "12.6.0",
+    "@types/node-fetch": "2.5.2",
+    "@types/semver": "6.0.2",
+    "@types/webpack-env": "1.14.1",
+    "markdown-replace-section": "0.4.0",
+    "markdown-table": "1.1.3",
+    "node-fetch": "2.6.0",
+    "prettier": "1.18.2",
+    "semver": "6.3.0",
+    "ts-loader": "6.2.1",
+    "ts-node": "8.4.1",
+    "typescript": "3.6.4",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.9"
+  }
+}

@@ -1,0 +1,4 @@
+include statuspage/template/*
+include README.md
+include CHANGELOG.md
+include LICENSE

@@ -1,0 +1,61 @@
+const fs = require('fs');
+const path = require('path');
+const algoliaComponents = require('algolia-frontend-components');
+const headerData = require('./src/data/communityHeader.json');
+
+function readFile(filepath) {
+  return fs.readFileSync(path.join(__dirname, filepath), 'utf8').toString();
+}
+
+const header = algoliaComponents.communityHeader(headerData, {
+  algoliaLogo: readFile('src/assets/images/algolia-logo-whitebg.svg'),
+  communityLogo: readFile('src/assets/images/algolia-community-dark.svg'),
+});
+
+const environmentConfig = {
+  production: {
+    docsDist: path.join(__dirname, '..', 'docs'),
+  },
+  development: {
+    docsDist: path.join(__dirname, '..', 'docs-dev'),
+  },
+};
+
+const sidebarMenu = [
+  {
+    title: 'Essentials',
+    items: [
+      { title: 'Getting Started', url: 'getting-started.html' },
+      { title: 'How it works', url: 'how-it-works.html' },
+      { title: 'FAQ', url: 'faq.html' },
+    ],
+  },
+  {
+    title: 'Configuration',
+    items: [
+      { title: 'Options', url: 'options.html' },
+      { title: 'Commandline', url: 'commandline.html' },
+      { title: 'Hooks', url: 'hooks.html' },
+    ],
+  },
+  {
+    title: 'Advanced',
+    items: [
+      { title: 'Deploying on Netlify', url: 'netlify.html' },
+      { title: 'Deploying on Github Pages', url: 'github-pages.html' },
+      { title: 'Themes', url: 'themes.html' },
+      { title: 'Migration guide', url: 'migration-guide.html' },
+    ],
+  },
+  {
+    title: 'Tutorials',
+    items: [{ title: 'Blog', url: 'blog.html' }],
+  },
+];
+
+module.exports = {
+  ...environmentConfig[process.env.NODE_ENV],
+  publicPath: process.env.PUBLIC_PATH || '/',
+  header,
+  sidebarMenu,
+};

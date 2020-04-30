@@ -1,0 +1,8 @@
+title: Shared Text Style Container
+description: Defines a document's list of reusable text styles
+type: object
+properties:
+  _class: { const: sharedTextStyleContainer }
+  objects:
+    type: array
+    items: { $ref: ./shared-style.schema.yaml }

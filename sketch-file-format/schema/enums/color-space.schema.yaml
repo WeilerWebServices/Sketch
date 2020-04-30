@@ -1,0 +1,12 @@
+title: Color Space
+description:
+  Enumeration of the color profiles Sketch can use to render a document
+type: integer
+enum:
+  - 0
+  - 1
+  - 2
+enumDescriptions:
+  - Unmanaged
+  - sRGB
+  - P3

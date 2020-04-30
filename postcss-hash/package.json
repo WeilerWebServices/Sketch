@@ -1,0 +1,79 @@
+{
+  "name": "postcss-hash",
+  "version": "2.0.0",
+  "description": "PostCSS plugin to replace output file names with HASH algorithms (md5, sha256, sha512, etc) and string length of your choice - for cache busting",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "postcss-hash",
+    "cache",
+    "cache-busting",
+    "cache-buster",
+    "cachebuster",
+    "hash",
+    "md5",
+    "md4",
+    "md2",
+    "sha",
+    "sha1",
+    "sha224",
+    "sha256",
+    "sha384",
+    "sha512",
+    "mdc2",
+    "ripemd160",
+    "name-changer",
+    "manifest"
+  ],
+  "author": "dacodekid",
+  "license": "MIT",
+  "repository": "dacodekid/postcss-hash",
+  "bugs": {
+    "url": "https://github.com/dacodekid/postcss-hash/issues"
+  },
+  "homepage": "https://github.com/dacodekid/postcss-hash",
+  "dependencies": {
+    "mkdirp": "^0.5.5",
+    "postcss": "^7.0.27"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "lint": "eslint --init",
+    "test": "eslint *.js && jest",
+    "test:watch": "jest --watch"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "globals": {
+      "Promise": true
+    },
+    "rules": {
+      "max-len": [
+        2,
+        100
+      ]
+    },
+    "env": {
+      "node": true,
+      "jest": true
+    }
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/data/"
+    ],
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|js)$",
+    "moduleFileExtensions": [
+      "js"
+    ]
+  }
+}

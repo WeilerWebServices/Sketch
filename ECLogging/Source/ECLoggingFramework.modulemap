@@ -1,0 +1,8 @@
+framework module ECLogging {
+  umbrella header "ECLogging.h"
+
+  link framework "ECLogging"
+  
+  export *
+  module * { export * }
+}

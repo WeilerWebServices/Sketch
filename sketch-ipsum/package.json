@@ -1,0 +1,30 @@
+{
+  "name": "sketch-ipsum",
+  "version": "1.1.2",
+  "description": "A DataSupplier plugin that fills your text layers with random Lorem Ipsum",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "sketch-ipsum",
+    "manifest": "src/manifest.json",
+    "main": "sketch-ipsum.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.7.4",
+    "serialize-javascript": ">=2.1.1"
+  },
+  "author": "Ale M <ale@sketch.com>",
+  "license": "MIT",
+  "repository": "https://github.com/BohemianCoding/sketch-ipsum.git",
+  "dependencies": {}
+}

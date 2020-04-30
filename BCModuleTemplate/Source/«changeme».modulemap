@@ -1,0 +1,7 @@
+module «changeme» {
+    umbrella header "«changeme».h"
+    link "«changeme»"
+    
+    export *
+    module * { export * }
+}

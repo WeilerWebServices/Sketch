@@ -1,0 +1,15 @@
+#!/usr/bin/python
+
+import os
+
+
+MOCHA_SYMLINK_SRC = "/Library/Frameworks/Mocha.framework/Resources/mocha"
+MOCHA_SYMLINK_DEST = "/usr/local/bin/mocha"
+
+
+# Create symbolic links
+try:
+    os.makedirs('/usr/local/bin')
+except OSError:
+    pass
+os.symlink(MOCHA_SYMLINK_SRC, MOCHA_SYMLINK_DEST)

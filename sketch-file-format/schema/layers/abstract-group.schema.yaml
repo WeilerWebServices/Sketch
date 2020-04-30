@@ -1,0 +1,33 @@
+title: Abstract Group
+description: Abstract base schema for all layers that behave as groups
+type: object
+allOf:
+  - $ref: ./abstract-layer.schema.yaml
+  - type: object
+    optional:
+      - groupLayout
+    properties:
+      hasClickThrough: { type: boolean }
+      groupLayout:
+        oneOf:
+          - { $ref: ../objects/freeform-group-layout.schema.yaml }
+          - { $ref: ../objects/inferred-group-layout.schema.yaml }
+      layers:
+        type: array
+        items:
+          oneOf:
+            - { $ref: ./artboard.schema.yaml }
+            - { $ref: ./group.schema.yaml }
+            - { $ref: ./oval.schema.yaml }
+            - { $ref: ./polygon.schema.yaml }
+            - { $ref: ./rectangle.schema.yaml }
+            - { $ref: ./shape-path.schema.yaml }
+            - { $ref: ./star.schema.yaml }
+            - { $ref: ./triangle.schema.yaml }
+            - { $ref: ./shape-group.schema.yaml }
+            - { $ref: ./text.schema.yaml }
+            - { $ref: ./symbol-master.schema.yaml }
+            - { $ref: ./symbol-instance.schema.yaml }
+            - { $ref: ./slice.schema.yaml }
+            - { $ref: ./hotspot.schema.yaml }
+            - { $ref: ./bitmap.schema.yaml }

@@ -1,0 +1,34 @@
+title: Style
+description: Defines a layer style
+type: object
+optional:
+  - blur
+  - borders
+  - contextSettings
+  - fills
+  - shadows
+  - textStyle
+properties:
+  _class: { const: style }
+  do_objectID: { $ref: ../utils/uuid.schema.yaml }
+  borders:
+    type: array
+    items: { $ref: ./border.schema.yaml }
+  borderOptions: { $ref: ./border-options.schema.yaml }
+  blur: { $ref: ./blur.schema.yaml }
+  fills:
+    type: array
+    items: { $ref: ./fill.schema.yaml }
+  startMarkerType: { $ref: ../enums/marker-type.schema.yaml }
+  endMarkerType: { $ref: ../enums/marker-type.schema.yaml }
+  miterLimit: { type: integer }
+  windingRule: { $ref: ../enums/winding-rule.schema.yaml }
+  textStyle: { $ref: ./text-style.schema.yaml }
+  shadows:
+    type: array
+    items: { $ref: ./shadow.schema.yaml }
+  innerShadows:
+    type: array
+    items: { $ref: ./inner-shadow.schema.yaml }
+  contextSettings: { $ref: ./graphics-context-settings.schema.yaml }
+  colorControls: { $ref: ./color-controls.schema.yaml }

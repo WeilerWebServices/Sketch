@@ -1,0 +1,3 @@
+#include "MacTestsRelease.xcconfig"
+#include "../../../BCFoundation/Configs/BCCoreDebug.xcconfig"
+

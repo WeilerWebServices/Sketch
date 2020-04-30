@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B42DE991A63D9AD0025C1EA /* BCCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B42DE981A63D9AD0025C1EA /* BCCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B42DEA71A63E0290025C1EA /* NSData+SHA1.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B42DEA31A63E0290025C1EA /* NSData+SHA1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B42DEA81A63E0290025C1EA /* NSData+SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B42DEA41A63E0290025C1EA /* NSData+SHA1.m */; };
+		5B42DEA91A63E0290025C1EA /* NSString+SHA1.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B42DEA51A63E0290025C1EA /* NSString+SHA1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B42DEAA1A63E0290025C1EA /* NSString+SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B42DEA61A63E0290025C1EA /* NSString+SHA1.m */; };
+		5B42DEAC1A63E2460025C1EA /* SHA1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B42DEAB1A63E2460025C1EA /* SHA1Tests.m */; };
+		5B42DEAE1A63E4350025C1EA /* ECUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B42DEAD1A63E4350025C1EA /* ECUnitTests.framework */; };
+		5B42DEB11A63E81B0025C1EA /* BCCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B42DEB01A63E81B0025C1EA /* BCCrypto.m */; };
+		5B42DF2A1A6412CD0025C1EA /* libBCCrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B42DE7D1A63D1930025C1EA /* libBCCrypto.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B42DE8A1A63D1930025C1EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B42DE751A63D1930025C1EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B42DE7C1A63D1930025C1EA;
+			remoteInfo = BCCrypto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B42DE7D1A63D1930025C1EA /* libBCCrypto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBCCrypto.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B42DE881A63D1930025C1EA /* BCCryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCCryptoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B42DE981A63D9AD0025C1EA /* BCCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCCrypto.h; path = Source/BCCrypto.h; sourceTree = "<group>"; };
+		5B42DE9B1A63D9F60025C1EA /* BCCryptoDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = BCCryptoDebug.xcconfig; path = Source/BCCryptoDebug.xcconfig; sourceTree = SOURCE_ROOT; };
+		5B42DE9C1A63D9F60025C1EA /* BCCryptoRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = BCCryptoRelease.xcconfig; path = Source/BCCryptoRelease.xcconfig; sourceTree = SOURCE_ROOT; };
+		5B42DE9D1A63D9F60025C1EA /* BCCryptoShared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = BCCryptoShared.xcconfig; path = Source/BCCryptoShared.xcconfig; sourceTree = SOURCE_ROOT; };
+		5B42DE9F1A63DB3D0025C1EA /* BCCryptoTestsShared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BCCryptoTestsShared.xcconfig; sourceTree = "<group>"; };
+		5B42DEA01A63DB3D0025C1EA /* BCCryptoTestsDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BCCryptoTestsDebug.xcconfig; sourceTree = "<group>"; };
+		5B42DEA11A63DB3D0025C1EA /* BCCryptoTestsRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BCCryptoTestsRelease.xcconfig; sourceTree = "<group>"; };
+		5B42DEA21A63DBDA0025C1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B42DEA31A63E0290025C1EA /* NSData+SHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SHA1.h"; sourceTree = "<group>"; };
+		5B42DEA41A63E0290025C1EA /* NSData+SHA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SHA1.m"; sourceTree = "<group>"; };
+		5B42DEA51A63E0290025C1EA /* NSString+SHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA1.h"; sourceTree = "<group>"; };
+		5B42DEA61A63E0290025C1EA /* NSString+SHA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA1.m"; sourceTree = "<group>"; };
+		5B42DEAB1A63E2460025C1EA /* SHA1Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHA1Tests.m; sourceTree = "<group>"; };
+		5B42DEAD1A63E4350025C1EA /* ECUnitTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECUnitTests.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/BCCrypto-efurtmprkzemrwgfkjfqnkiilreb/Build/Products/Debug/ECUnitTests.framework"; sourceTree = "<group>"; };
+		5B42DEB01A63E81B0025C1EA /* BCCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCCrypto.m; sourceTree = "<group>"; };
+		5B42DF261A63F3400025C1EA /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B42DE7A1A63D1930025C1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B42DE851A63D1930025C1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B42DF2A1A6412CD0025C1EA /* libBCCrypto.a in Frameworks */,
+				5B42DEAE1A63E4350025C1EA /* ECUnitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B42DE741A63D1930025C1EA = {
+			isa = PBXGroup;
+			children = (
+				5B42DE981A63D9AD0025C1EA /* BCCrypto.h */,
+				5B42DE971A63D9AD0025C1EA /* Source */,
+				5B42DE9A1A63D9BE0025C1EA /* Configs */,
+				5B42DE9E1A63DB3D0025C1EA /* Tests */,
+				5B42DE7E1A63D1930025C1EA /* Products */,
+				5B42DEAF1A63E44F0025C1EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B42DE7E1A63D1930025C1EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B42DE7D1A63D1930025C1EA /* libBCCrypto.a */,
+				5B42DE881A63D1930025C1EA /* BCCryptoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B42DE971A63D9AD0025C1EA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5B42DF261A63F3400025C1EA /* module.modulemap */,
+				5B42DEA31A63E0290025C1EA /* NSData+SHA1.h */,
+				5B42DEA41A63E0290025C1EA /* NSData+SHA1.m */,
+				5B42DEA51A63E0290025C1EA /* NSString+SHA1.h */,
+				5B42DEA61A63E0290025C1EA /* NSString+SHA1.m */,
+				5B42DEB01A63E81B0025C1EA /* BCCrypto.m */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		5B42DE9A1A63D9BE0025C1EA /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				5B42DE9B1A63D9F60025C1EA /* BCCryptoDebug.xcconfig */,
+				5B42DE9C1A63D9F60025C1EA /* BCCryptoRelease.xcconfig */,
+				5B42DE9D1A63D9F60025C1EA /* BCCryptoShared.xcconfig */,
+			);
+			name = Configs;
+			path = BCCryptoTests;
+			sourceTree = "<group>";
+		};
+		5B42DE9E1A63DB3D0025C1EA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5B42DEA21A63DBDA0025C1EA /* Info.plist */,
+				5B42DE9F1A63DB3D0025C1EA /* BCCryptoTestsShared.xcconfig */,
+				5B42DEA01A63DB3D0025C1EA /* BCCryptoTestsDebug.xcconfig */,
+				5B42DEA11A63DB3D0025C1EA /* BCCryptoTestsRelease.xcconfig */,
+				5B42DEAB1A63E2460025C1EA /* SHA1Tests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		5B42DEAF1A63E44F0025C1EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B42DEAD1A63E4350025C1EA /* ECUnitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B42DE7B1A63D1930025C1EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B42DEA71A63E0290025C1EA /* NSData+SHA1.h in Headers */,
+				5B42DEA91A63E0290025C1EA /* NSString+SHA1.h in Headers */,
+				5B42DE991A63D9AD0025C1EA /* BCCrypto.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B42DE7C1A63D1930025C1EA /* BCCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B42DE911A63D1930025C1EA /* Build configuration list for PBXNativeTarget "BCCrypto" */;
+			buildPhases = (
+				5B42DE791A63D1930025C1EA /* Sources */,
+				5B42DE7A1A63D1930025C1EA /* Frameworks */,
+				5B42DE7B1A63D1930025C1EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BCCrypto;
+			productName = BCCrypto;
+			productReference = 5B42DE7D1A63D1930025C1EA /* libBCCrypto.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B42DE871A63D1930025C1EA /* BCCryptoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B42DE941A63D1930025C1EA /* Build configuration list for PBXNativeTarget "BCCryptoTests" */;
+			buildPhases = (
+				5B42DE841A63D1930025C1EA /* Sources */,
+				5B42DE851A63D1930025C1EA /* Frameworks */,
+				5B42DE861A63D1930025C1EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B42DE8B1A63D1930025C1EA /* PBXTargetDependency */,
+			);
+			name = BCCryptoTests;
+			productName = BCCryptoTests;
+			productReference = 5B42DE881A63D1930025C1EA /* BCCryptoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B42DE751A63D1930025C1EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Bohemian Coding";
+				TargetAttributes = {
+					5B42DE7C1A63D1930025C1EA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5B42DE871A63D1930025C1EA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B42DE781A63D1930025C1EA /* Build configuration list for PBXProject "BCCrypto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B42DE741A63D1930025C1EA;
+			productRefGroup = 5B42DE7E1A63D1930025C1EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B42DE7C1A63D1930025C1EA /* BCCrypto */,
+				5B42DE871A63D1930025C1EA /* BCCryptoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B42DE861A63D1930025C1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B42DE791A63D1930025C1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B42DEAA1A63E0290025C1EA /* NSString+SHA1.m in Sources */,
+				5B42DEB11A63E81B0025C1EA /* BCCrypto.m in Sources */,
+				5B42DEA81A63E0290025C1EA /* NSData+SHA1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B42DE841A63D1930025C1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B42DEAC1A63E2460025C1EA /* SHA1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B42DE8B1A63D1930025C1EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B42DE7C1A63D1930025C1EA /* BCCrypto */;
+			targetProxy = 5B42DE8A1A63D1930025C1EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B42DE8F1A63D1930025C1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5B42DE901A63D1930025C1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		5B42DE921A63D1930025C1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B42DE9B1A63D9F60025C1EA /* BCCryptoDebug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5B42DE931A63D1930025C1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B42DE9C1A63D9F60025C1EA /* BCCryptoRelease.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		5B42DE951A63D1930025C1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B42DEA01A63DB3D0025C1EA /* BCCryptoTestsDebug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5B42DE961A63D1930025C1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B42DEA11A63DB3D0025C1EA /* BCCryptoTestsRelease.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B42DE781A63D1930025C1EA /* Build configuration list for PBXProject "BCCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B42DE8F1A63D1930025C1EA /* Debug */,
+				5B42DE901A63D1930025C1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B42DE911A63D1930025C1EA /* Build configuration list for PBXNativeTarget "BCCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B42DE921A63D1930025C1EA /* Debug */,
+				5B42DE931A63D1930025C1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B42DE941A63D1930025C1EA /* Build configuration list for PBXNativeTarget "BCCryptoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B42DE951A63D1930025C1EA /* Debug */,
+				5B42DE961A63D1930025C1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B42DE751A63D1930025C1EA /* Project object */;
+}

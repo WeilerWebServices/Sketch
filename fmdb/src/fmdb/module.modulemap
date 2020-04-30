@@ -1,0 +1,6 @@
+module FMDB {
+  umbrella header "FMDB.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+.DS_Store
+
+node_modules/
+build/
+.awcache/
+_vendor
+_site
+.sass-cache
+_external
+.jekyll-metadata
+.jekyll-cache
+temp-sketchAPI-copy/
+.bundle
+.jekyll-cache
+
+examples/**/package-lock.json

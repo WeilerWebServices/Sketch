@@ -1,0 +1,9 @@
+#include "../../../BCFoundation/Configs/BCCore.xcconfig"
+#include "../../../BCFoundation/Configs/BCFramework.xcconfig"
+
+PRODUCT_NAME = ECLogging
+INFOPLIST_FILE = Resources/Info.plist
+
+CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO
+
+

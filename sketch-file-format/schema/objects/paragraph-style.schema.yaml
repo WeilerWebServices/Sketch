@@ -1,0 +1,16 @@
+title: Paragraph Style
+description: Defines the paragraph style within a text style
+type: object
+optional:
+  - maximumLineHeight
+  - minimumLineHeight
+  - alignment
+  - paragraphSpacing
+  - allowsDefaultTighteningForTruncation
+properties:
+  _class: { const: paragraphStyle }
+  alignment: { $ref: ../enums/text-horizontal-alignment.schema.yaml }
+  maximumLineHeight: { type: number }
+  minimumLineHeight: { type: number }
+  paragraphSpacing: { type: number }
+  allowsDefaultTighteningForTruncation: { type: number }

@@ -1,0 +1,4 @@
+#include "../BCFoundation/Configs/BCStaticLibrary.xcconfig"
+
+PRODUCT_NAME=$(TARGET_NAME)
+GCC_PREFIX_HEADER =

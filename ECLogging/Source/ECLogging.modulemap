@@ -1,0 +1,8 @@
+module ECLogging {
+  umbrella header "ECLogging.h"
+
+  link "ECLogging"
+  
+  export *
+  module * { export * }
+}

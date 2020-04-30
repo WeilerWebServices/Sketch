@@ -1,0 +1,3 @@
+#import "«changeme»Shared.pch"
+
+#define EC_RELEASE 1

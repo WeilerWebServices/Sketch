@@ -1,0 +1,1 @@
+package-static-library.sh

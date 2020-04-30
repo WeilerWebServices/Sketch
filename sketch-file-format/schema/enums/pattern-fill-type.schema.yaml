@@ -1,0 +1,13 @@
+title: Pattern Fill Type
+description: Enumeration of pattern fill types
+type: integer
+enum:
+  - 0
+  - 1
+  - 2
+  - 3
+enumDescriptions:
+  - Tile
+  - Fill
+  - Stretch
+  - Fit

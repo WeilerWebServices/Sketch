@@ -1,0 +1,32 @@
+{
+  "name": "sketch-image-compressor",
+  "version": "1.3.1",
+  "description": "A Plugin that compresses bitmap assets, right when you export them. This Plugin *requires* Sketch 3.8.",
+  "skpm": {
+    "name": "Sketch Image Compressor",
+    "main": "Sketch Image Compressor.sketchplugin",
+    "manifest": "src/manifest.json"
+  },
+  "main": "src/plugin.js",
+  "scripts": {
+    "build": "mkdir -p \"Sketch Image Compressor.sketchplugin/Contents/Resources\" && skpm-build && cp -r assets/* \"Sketch Image Compressor.sketchplugin/Contents/Resources\"",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ale Muñoz <ale@sketchapp.com>",
+  "license": "MIT",
+  "repository": "https://github.com/sketch-hq/sketch-image-compressor",
+  "devDependencies": {
+    "@skpm/builder": "^0.5.10",
+    "serialize-javascript": ">=2.1.1"
+  },
+  "dependencies": {
+    "@skpm/child_process": "^0.2.4",
+    "@skpm/dialog": "^0.2.3",
+    "@skpm/fs": "^0.2.0",
+    "pretty-bytes": "^5.1.0",
+    "pretty-ms": "^4.0.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "commit": "263281c53601afed11c5ffc64635380925727011",
+  "pagesAndArtboards": {
+    "A3638F05-5762-42DF-8879-A6004F1E878F": { "name": "Page 1", "artboards": {} }
+  },
+  "version": 121,
+  "fonts": ["RecursiveBeta_1_022-SansLinearA_Sans-Casual-Medium"],
+  "compatibilityVersion": 99,
+  "app": "com.bohemiancoding.sketch3",
+  "autosaved": 0,
+  "variant": "NONAPPSTORE",
+  "created": {
+    "commit": "263281c53601afed11c5ffc64635380925727011",
+    "appVersion": "61",
+    "build": 89581,
+    "app": "com.bohemiancoding.sketch3",
+    "compatibilityVersion": 99,
+    "version": 121,
+    "variant": "NONAPPSTORE"
+  },
+  "saveHistory": ["NONAPPSTORE.89581"],
+  "appVersion": "61",
+  "build": 89581
+}

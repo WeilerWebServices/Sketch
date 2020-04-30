@@ -1,0 +1,20 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "identifier": "com.sketchapp.library-replacer",
+  "description": "Allows you to replace a library in a Sketch file",
+  "commands": [
+    {
+      "name": "Library Replacer",
+      "identifier": "replaceLibrary",
+      "script": "./command.js"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": [
+      "replaceLibrary"
+    ]
+  }
+}

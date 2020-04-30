@@ -1,0 +1,7 @@
+module BCCrypto {
+    umbrella header "BCCrypto.h"
+    link "BCCrypto"
+    
+    export *
+    module * { export * }
+}

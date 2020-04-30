@@ -1,0 +1,8 @@
+title: Shape Group Layer
+description: Shape groups layers group together multiple shape layers
+allOf:
+  - $ref: ./abstract-group.schema.yaml
+  - type: object
+    properties:
+      _class: { const: shapeGroup }
+      windingRule: { $ref: ../enums/winding-rule.schema.yaml }

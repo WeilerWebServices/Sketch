@@ -1,0 +1,24 @@
+{
+  "compatibleVersion": 3,
+  "homepage" : "https://developer.sketchapp.com",
+  "identifier" : "com.bohemiancoding.datasupplier.example",
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "suppliesData": true,
+  "commands": [
+    {
+      "script": "DataSupplier.js",
+      "handlers": {
+        "actions": {
+          "Startup" : "onStartup",
+          "Shutdown" : "onShutdown",
+          "SupplyUKRegions" : "onSupplyUKRegions",
+          "SupplyFaces" : "onSupplyFaces",
+          "SupplyFemaleFaces" : "onSupplyFemaleFaces",
+          "SupplyMaleFaces" : "onSupplyMaleFaces",
+          "SupplyNames" : "onSupplyNames"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "03CC76BA023563ABC79A0D638133C8034836B3F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "03CC76BA023563ABC79A0D638133C8034836B3F7" : 0,
+    "7B28B217D9DF23840CC048A2AF6F2BEEE520DE02" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F7343555-3358-42E9-81A0-0E154132225C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "03CC76BA023563ABC79A0D638133C8034836B3F7" : "PeerTalk\/",
+    "7B28B217D9DF23840CC048A2AF6F2BEEE520DE02" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "peertalk",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "peertalk.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:awkward\/peertalk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03CC76BA023563ABC79A0D638133C8034836B3F7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/awkward\/sketch-mirror-kit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7B28B217D9DF23840CC048A2AF6F2BEEE520DE02"
+    }
+  ]
+}

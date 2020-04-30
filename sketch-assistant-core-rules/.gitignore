@@ -1,0 +1,8 @@
+node_modules
+*.log
+.DS_Store
+dist
+*.tsbuildinfo
+/*.tgz
+src/locale/_build/
+src/locale/**/*.js

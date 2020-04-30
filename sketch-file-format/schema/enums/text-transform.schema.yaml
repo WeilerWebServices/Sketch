@@ -1,0 +1,11 @@
+title: Text Transform
+description: Enumeration of the text style transformations options
+type: integer
+enum:
+  - 0
+  - 1
+  - 2
+enumDescriptions:
+  - None
+  - Uppercase
+  - Lowercase

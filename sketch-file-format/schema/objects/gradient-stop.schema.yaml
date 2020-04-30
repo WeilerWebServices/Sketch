@@ -1,0 +1,9 @@
+title: Gradient Stop
+description:
+  Defines a position on a gradient that marks the end of a transition to a new
+  color
+type: object
+properties:
+  _class: { const: gradientStop }
+  color: { $ref: ./color.schema.yaml }
+  position: { $ref: ../utils/unit-interval.schema.yaml }

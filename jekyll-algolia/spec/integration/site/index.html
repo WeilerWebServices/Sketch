@@ -1,0 +1,18 @@
+---
+layout: default
+title: Home
+---
+
+This default index page is usually used to display the list of posts, or briefly explain the product.
+
+I feel that it should not be indexed.
+
+{% for post in paginator.posts %}
+  <h2>
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      {{ post.title }}
+    </a>
+  </h2>
+  <p>{{ post.content }}</p>
+{% endfor %}
+

@@ -1,0 +1,28 @@
+title: Asset Collection
+description: Collection of global document objects
+type: object
+optional:
+  - imageCollection
+properties:
+  _class: { const: assetCollection }
+  do_objectID: { $ref: ../utils/uuid.schema.yaml }
+  imageCollection: { $ref: ./image-collection.schema.yaml }
+  colorAssets:
+    type: array
+    items: { $ref: ./color-asset.schema.yaml }
+  gradientAssets:
+    type: array
+    items: { $ref: ./gradient-asset.schema.yaml }
+  images:
+    type: array
+    items:
+      oneOf:
+        - { $ref: ./image-file-ref.schema.yaml }
+        - { $ref: ./image-data-ref.schema.yaml }
+  colors:
+    type: array
+    items: { $ref: ./color.schema.yaml }
+  gradients:
+    type: array
+    items: { $ref: ./gradient.schema.yaml }
+  exportPresets: { type: array }

@@ -1,0 +1,6 @@
+#include "../BCFoundation/Configs/BCStaticLibrary.xcconfig"
+
+// Common settings for the «changeme» project go here.
+
+PRODUCT_NAME=$(TARGET_NAME)
+GCC_PREFIX_HEADER = Source/«changeme»$(CONFIGURATION).pch

@@ -1,0 +1,249 @@
+/* some default styles to make the view more native like */
+
+@font-face {
+  font-family: 'FNR';
+  src: url('../assets/FNR.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+  background: transparent;
+
+  /* Prevent the page to be scrollable */
+  overflow: hidden;
+
+  /* Force the default cursor, even on text */
+  cursor: default;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+  /* Prevent the content from being selectionable */
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+body {
+  font-family: 'Helvetica Neue', system-ui;
+  font-size: 14px;
+}
+
+p {
+  line-height: 1.35em;
+}
+
+input {
+  width: 80%;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+input.find {
+  padding-right: 5.5em;
+}
+
+input, textarea {
+  -webkit-user-select: auto;
+  user-select: auto;
+}
+
+input:focus {
+  outline: #3277E3;
+}
+
+a:active {
+  background-clip: #3277E3;
+}
+
+img {
+  vertical-align: top;
+}
+
+
+
+.icon-caseSensitive {
+  font-family: 'FNR';
+  display: inline-block;
+  margin-left: -6.25em;
+  margin-right: -0.1em;
+  font-size: 0.875em;
+  padding: 1px;
+  border: 1px solid #000;
+  cursor: pointer;
+  top: -1px;
+}
+
+.icon-wholeWord {
+  font-family: 'FNR';
+  display: inline-block;
+  font-size: 0.875em;
+  cursor: pointer;
+  padding: 1px;
+  border: 1px solid #000;
+  top: -1px;
+}
+
+.icon-layers {
+  font-family: 'FNR';
+  display: inline-block;
+  font-size: 0.875em;
+  cursor: pointer;
+  padding: 1px;
+  border: 1px solid #000;
+  top: -1px;
+}
+
+.icon-wholeWord:before {
+  content: "\e900";
+}
+
+.icon-caseSensitive:before {
+  content: "\e901";
+}
+
+.icon-layers:before {
+  content: "\e902";
+}
+
+.header {
+  padding: 12px 20px;
+}
+
+.header > img {
+  margin-top: 4px;
+}
+
+.title {
+  display: inline-block;
+  margin-left: 0.6875rem;
+  width: 330px;
+  font-size: 0.875em;
+}
+
+.title span {
+  font-weight: 700;
+  line-height: 1.6em;
+}
+
+.content {
+  padding: 16px 20px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 0.5rem;
+}
+
+.row-x2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 1rem;
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.col-1 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.field-label {
+  top: 2px;
+  text-align: right;
+  font-size: 0.9em;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.btn-plain {
+  display: block;
+  border-radius: 4px;
+  width: 81px;
+  text-align: center;
+  height: 24px;
+  text-decoration: none;
+  padding-top: 4px;
+  font-size: 13px;
+}
+
+btn-plain.disabled {
+  cursor: default;
+}
+
+.btn-iconified {
+  display: inline-block;
+  border-radius: 6px;
+  width: 57px;
+  height: 60px;
+  font-size: 11px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 2px;
+  margin-right: 4px;
+}
+
+.disabled {
+  cursor: default;
+}
+
+.disabled > img {
+  opacity: 0.25;
+}
+
+.btn-iconified > img {
+  display: block;
+  margin: 6px auto;
+}
+
+.mrg-b {
+  margin-bottom: 6px;
+}
+
+.mrg-t {
+  margin-top: 27px;
+}
+
+.col-3 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 3px;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-9 {
+  position: relative;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  flex: 0 0 75%;
+  max-width: 75%;
+}

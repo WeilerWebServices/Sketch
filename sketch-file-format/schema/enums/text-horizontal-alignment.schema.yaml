@@ -1,0 +1,15 @@
+title: Text Horizontal Alignment
+description: Enumeration of the horizontal alignment options for paragraphs
+type: integer
+enum:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+enumDescriptions:
+  - Left
+  - Right
+  - Centered
+  - Justified
+  - Natural

@@ -1,0 +1,18 @@
+include ../../includes/mixins
+
+doctype html
+html(lang="en")
+  head
+    include ./header.pug
+
+  body
+    div !{header}
+    .spacer56
+    block body
+
+  include ./footer.pug
+
+  script(src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js")
+  script(src=webpack.assets['js/common.js'])
+  script(src=webpack.assets['js/main.js'])
+  script(src=webpack.assets['js/freezeGifs.js'])

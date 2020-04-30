@@ -1,0 +1,11 @@
+title: Gradient Type
+description: Enumeration of the gradient types
+type: integer
+enum:
+  - 0
+  - 1
+  - 2
+enumDescriptions:
+  - Linear
+  - Radial
+  - Angular

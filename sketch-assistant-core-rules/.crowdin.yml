@@ -1,0 +1,5 @@
+project_identifier: sketch-assistant-core-rules
+base_path: /src
+files:
+  - source: /locale/en/*.po
+    translation: /locale/%locale%/%original_file_name%

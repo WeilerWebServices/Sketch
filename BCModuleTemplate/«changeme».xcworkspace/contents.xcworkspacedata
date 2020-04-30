@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:&#xab;changeme&#xbb;.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Modules">
+      <FileRef
+         location = "group:../BCFoundation/BCFoundation.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../ECLogging/ECLogging.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>

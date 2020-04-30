@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "target": "es6"
+  },
+  "extends": "./tsconfig.json",
+  "exclude": ["**/__tests__/*"]
+}

@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "declaration": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "target": "es6"
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules", "dist"]
+}

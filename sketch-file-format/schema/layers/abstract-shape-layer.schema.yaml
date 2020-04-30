@@ -1,0 +1,14 @@
+title: Abstract Shape Layer
+description: Abstract base layer for all shape layers
+type: object
+allOf:
+  - $ref: ./abstract-layer.schema.yaml
+  - type: object
+    properties:
+      edited: { type: boolean }
+      isClosed: { type: boolean }
+      pointRadiusBehaviour:
+        { $ref: ../enums/points-radius-behaviour.schema.yaml }
+      points:
+        type: array
+        items: { $ref: ../objects/curve-point.schema.yaml }

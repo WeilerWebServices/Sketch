@@ -1,0 +1,30 @@
+{
+  "name": "print-export",
+  "version": "1.0.9",
+  "description": "Export artboards or pages to a PDF for printing",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "Print Export",
+    "manifest": "src/manifest.json",
+    "main": "print-export.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.7.4"
+  },
+  "author": "Sketch",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/sketch-hq/print-export-sketchplugin"
+  }
+}

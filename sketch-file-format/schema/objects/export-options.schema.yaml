@@ -1,0 +1,13 @@
+title: Export Options
+description: Defines a layer's export options
+type: object
+properties:
+  _class: { const: exportOptions }
+  exportFormats:
+    type: array
+    items: { $ref: ./export-format.schema.yaml }
+  includedLayerIds:
+    type: array
+    items: { $ref: ../utils/uuid.schema.yaml }
+  layerOptions: { type: integer }
+  shouldTrim: { type: boolean }

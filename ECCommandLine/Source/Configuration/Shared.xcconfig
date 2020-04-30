@@ -1,0 +1,15 @@
+ZTRACE_SHARED = 151
+ZTRACE_PATH = $(inherited)_151
+
+// --------------------------------------------------------------------------
+//  Copyright 2013 Sam Deane, Elegant Chaos. All rights reserved.
+//  This source code is distributed under the terms of Elegant Chaos's
+//  liberal license: http://www.elegantchaos.com/license/liberal
+// --------------------------------------------------------------------------
+
+// Stop compiling the PCH header
+GCC_PREFIX_HEADER = 
+
+// Don't use the module map until we can figure out how to get working.
+MODULEMAP_FILE =
+

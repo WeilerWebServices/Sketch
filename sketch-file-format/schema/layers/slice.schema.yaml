@@ -1,0 +1,10 @@
+title: Slice Layer
+description: Slice layers allow the content beneath their frame to be exported
+type: object
+allOf:
+  - $ref: ./abstract-layer.schema.yaml
+  - type: object
+    properties:
+      _class: { const: slice }
+      hasBackgroundColor: { type: boolean }
+      backgroundColor: { $ref: ../objects/color.schema.yaml }

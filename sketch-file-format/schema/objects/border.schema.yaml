@@ -1,0 +1,14 @@
+title: Border
+description: Defines a border style
+type: object
+properties:
+  _class: { const: border }
+  isEnabled: { type: boolean }
+  color: { $ref: ./color.schema.yaml }
+  fillType: { $ref: ../enums/fill-type.schema.yaml }
+  position: { $ref: ../enums/border-position.schema.yaml }
+  thickness:
+    type: number
+    exclusiveMinimum: 0
+  contextSettings: { $ref: ./graphics-context-settings.schema.yaml }
+  gradient: { $ref: ./gradient.schema.yaml }

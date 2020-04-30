@@ -1,0 +1,4 @@
+module PocketSocket {
+	header "PocketSocket/PSWebSocket.h"
+	export *
+}

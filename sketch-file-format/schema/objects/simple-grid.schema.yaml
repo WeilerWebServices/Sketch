@@ -1,0 +1,8 @@
+title: Simple Grid
+description: Defines the grid settings for an artboard or page
+type: object
+properties:
+  _class: { const: simpleGrid }
+  isEnabled: { type: boolean }
+  gridSize: { type: integer }
+  thickGridTimes: { type: integer }

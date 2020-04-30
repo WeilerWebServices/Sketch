@@ -1,0 +1,21 @@
+title: Export File Format
+description:
+  Enumeration of the file formats that can be selected in the layer export
+  options
+type: string
+enum:
+  - png
+  - jpg
+  - tiff
+  - eps
+  - pdf
+  - webp
+  - svg
+enumDescriptions:
+  - PNG
+  - JPG
+  - TIFF
+  - EPS
+  - PDF
+  - WEBP
+  - SVG
